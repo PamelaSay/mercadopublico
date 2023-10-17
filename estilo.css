@@ -1,4 +1,4 @@
-a.Menu {
+ul.Menu {
   margin: 0;
   padding: 12px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
@@ -7,7 +7,7 @@ a.Menu {
   transition: background .4s;
   margin-right: 0px ; /* Adicione o espaçamento desejado entre os itens */
   }
-a.Menu li a {
+ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
   margin-right: 0px ; /* Adicione o espaçamento desejado entre os itens */
@@ -15,7 +15,7 @@ a.Menu li a {
   font-weight: 400px;
   padding:0;
   }
-a.Menu li{
+ul.Menu li{
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
 }
 a.Menu li a:hover {
@@ -79,4 +79,26 @@ a.Menu li a:hover {
  }
  .return-button:hover{
     background-color: 0/* Cor do fundo do botão ao passar o mouse*/
- }
+ }    
+
+.return-button{
+        display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+         background-color: 0/* Cor do texto do Menu */
+         margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+         font-size: ;
+         font-weight: ;
+         padding: 10px 20px; /* Espaçamento interno do botão*/
+         border-radius:5px; /*borda arredondada*/
+         text-decoration: none; /* remova o sublinahdo do link*/
+         transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+     }
+     .return-button img{
+        vertical-align:middle;/* Centralizar verticalmente a imagem*/
+        margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
+        max-width: 30px;
+        max-height: 30px;
+     }
+     .return-button:hover{
+        background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+     }
+   
