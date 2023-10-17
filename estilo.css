@@ -1,0 +1,82 @@
+ul.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px ; /*Cor de fundo do Menu */
+  box-sizing: border-box;
+  background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
+  position: center ;
+  transition: background .4s;
+  }
+ul.Menu li a {
+  display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
+  color: white;/* Cor do texto do Menu */
+  margin-right: 0px ; /* Adicione o espaçamento desejado entre os itens */
+  font-size: 20px;
+  font-weight: 400px;
+  padding:0;
+  }
+ul.Menu li{
+  display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
+}
+ul.Menu li a:hover {
+  background-color: #399ed8; /*Cor de fundo ao passar o mouse */
+  }
+
+
+   body{
+    font-size: 12px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    background-size: cover;
+    background-image: url("/IMAGENS/fundorg.jpg");
+    display: block;
+    margin-right: auto;
+    background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
+    float: center;
+    background-position-x:center;
+    background-position-y:center;
+   }
+
+  h1 {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+   }
+
+  .button {
+    display: inline;
+    padding: 1rem;
+    border-radius: 4px;
+    word-spacing: 8px;
+    font-weight: 200px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: coral;
+    transition: .3s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 10px 0px black;
+  }
+  
+  .return-button{
+    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+     background-color: 0/* Cor do texto do Menu */
+     margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+     font-size: ;
+     font-weight: ;
+     padding: 10px 20px; /* Espaçamento interno do botão*/
+     border-radius:5px; /*borda arredondada*/
+     text-decoration: none; /* remova o sublinahdo do link*/
+     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+ }
+ .return-button img{
+    vertical-align:middle;/* Centralizar verticalmente a imagem*/
+    margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30px;
+    max-height: 30px;
+ }
+ .return-button:hover{
+    background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+ }
