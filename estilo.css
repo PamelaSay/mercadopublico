@@ -1,6 +1,6 @@
 ul.Menu {
   margin: 0;
-  padding: 12px ; /*Cor de fundo do Menu */
+  padding: 10px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
@@ -12,11 +12,11 @@ ul.Menu li a {
   color: white;/* Cor do texto do Menu */
   margin-right: 0px ; /* Adicione o espaçamento desejado entre os itens */
   font-size: 20px;
-  font-weight: 400px;
-  padding:0;
+  font-weight: 0px;
+  padding:2;
   }
 ul.Menu li{
-  display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
+  display: inline; /* isso faz com que os itens fiquem na mesma linha*/
 }
 a.Menu li a:hover {
   background-color: #399ed8; /*Cor de fundo ao passar o mouse */
