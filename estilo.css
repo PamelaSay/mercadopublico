@@ -13,7 +13,7 @@ ul.Menu li a {
   margin-right:20 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:40 px;
   font-weight:0 px;
-  padding:0;
+  padding:20px;
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
