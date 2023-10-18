@@ -19,6 +19,11 @@ ul.Menu li a {
   padding:10 px;
   justify-content:center;/* centralizar horizontalemente*/
   float:center
+  text-transform: uppercase;
+    letter-spacing: 2 px;
+    background-color: coral;
+    transition: .3 s;
+    cursor: pointer;
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
