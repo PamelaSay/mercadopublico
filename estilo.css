@@ -1,6 +1,6 @@
 ul.Menu {
   margin: 0;
-  padding:50px ; /*Cor de fundo do Menu */
+  padding:20px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0000FF; /*Cor de fundo ao passar o mouse */
   position: center ;
