@@ -2,7 +2,7 @@ ul.Menu {
   margin: 0;
   padding:20 px; /*Cor de fundo do Menu */
   box-sizing: border-box;
-  background-color: Blue; /*Cor de fundo ao passar o mouse */
+  background-color: (0,0,0); /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .4 s;
   margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
