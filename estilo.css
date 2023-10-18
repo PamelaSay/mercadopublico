@@ -1,11 +1,11 @@
 ul.Menu {
   margin: 0;
-  padding:20 px; /*Cor de fundo do Menu */
+  padding:40 px; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: black; /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .4 s;
-  margin-right: 40 px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
   }
 ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
