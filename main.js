@@ -21,14 +21,14 @@
   document.getElementById('Quizz').addEventListener('click',abrirQuizz);
 
 
-
-        function calcularPontuacao(){
+<section>
+         function calcularPontuacao(){
             //Inicializa a pontuação
             var pontuacao = 0;
 
             //Obtém as respostas selecionadas
             var respostas =
-document.forms["quizzForm"].elements;
+document.forms["quizz.html"].elements;
 
             //Loop pelas respostas e soma os valores de pontuação das respostas corretas
             for(var i=0; i<respostas.length; i++) {
