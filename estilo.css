@@ -12,7 +12,7 @@ ul.Menu li a {
   color: white;/* Cor do texto do Menu */
   margin-right:20 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:40 px;
-  font-weight: 20 px;
+  font-weight:0 px;
   padding:0;
   }
 ul.Menu li{
