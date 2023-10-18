@@ -38,7 +38,7 @@ a.Menu li a:hover {
     padding:0;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
-    background-position:center;
+    position:center;
           }
 @media(max-width:768px){
   nav{
@@ -70,6 +70,8 @@ a.Menu li a:hover {
     background-color: coral;
     transition: .3 s;
     cursor: pointer;
+    justify-content:center;
+    
   }
   
   .button:hover {
