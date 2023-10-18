@@ -1,8 +1,8 @@
 ul.Menu {
   margin: 0;
-  padding:40 px; /*Cor de fundo do Menu */
+  padding:30 px; /*Cor de fundo do Menu */
   box-sizing: border-box;
-  background-color: black; /*Cor de fundo ao passar o mouse */
+  background-color:Black; /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .4 s;
   margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
@@ -19,7 +19,7 @@ ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
 }
 a.Menu li a:hover {
-  background-color: Blue; /*Cor de fundo ao passar o mouse */
+  background-color:DarkTurquoise; /*Cor de fundo ao passar o mouse */
   }
    body{
     font-size: 12 px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
