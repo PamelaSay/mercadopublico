@@ -1,10 +1,10 @@
 ul.Menu {
   margin: 0;
-  padding:20 px ; /*Cor de fundo do Menu */
+  padding:20 px; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: Blue; /*Cor de fundo ao passar o mouse */
   position: center ;
-  transition: background .4s;
+  transition: background .4 s;
   margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
   }
 ul.Menu li a {
@@ -44,28 +44,28 @@ a.Menu li a:hover {
     display: inline;
     padding: 1 rem;
     border-radius: 4  px;
-    word-spacing: 8px;
-    font-weight: 200px;
+    word-spacing: 8 px;
+    font-weight: 20 px;
     font-family: sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2 px;
     background-color: coral;
-    transition: .3s;
+    transition: .3 s;
     cursor: pointer;
   }
   
   .button:hover {
-    box-shadow: 0 0 10px 0px black;
+    box-shadow: 0 0 10 px 0 px black;
   }
   
   .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
      background-color: 0/* Cor do texto do Menu */
-     margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
      font-size: ;
      font-weight: ;
-     padding: 10px 20px; /* Espaçamento interno do botão*/
-     border-radius:5px; /*borda arredondada*/
+     padding: 10 px 20 px; /* Espaçamento interno do botão*/
+     border-radius:5 px; /*borda arredondada*/
      text-decoration: none; /* remova o sublinahdo do link*/
      transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
  }
