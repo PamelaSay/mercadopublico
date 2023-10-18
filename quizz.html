@@ -4,31 +4,45 @@
    <title>Quizz</title>
 </head>
 </body>
-<a href="file:///C:/Users/pam15/Downloads/mercado%20publico/Home.html#" class="return-button">
-   <img src="file:///C:/Users/pam15/Downloads/mercado%20publico/IMAGENS/botao%20retornar.png" alt="botao retornar">
-</a>
-<style>
-  .return-button{
-     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-      background-color: 0/* Cor do texto do Menu */
-      margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
-      font-size: ;
-      font-weight: ;
-      padding: 10px 20px; /* Espaçamento interno do botão*/
-      border-radius:5px; /*borda arredondada*/
-      text-decoration: none; /* remova o sublinahdo do link*/
-      transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+<body>
+       <a href="index.html" class="return-button">
+         <img src="botao%20retornar.png" alt="botao retornar">
+       </a>  
+   </body>
+   <style>   
+   @media(max-width:768px){
+  nav{
+    text-align:center;
   }
-  .return-button img{
-     vertical-align:middle;/* Centralizar verticalmente a imagem*/
-     margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
-     max-width: 30px;
-     max-height: 30px;
+  nav ul{
+    flex-direction:column;
   }
-  .return-button:hover{
-     background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+  nav li{
+    margin:5px
   }
-</style>
+}
+                       
+     .return-button{
+        display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+         background-color: 0/* Cor do texto do Menu */
+         margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+         font-size: ;
+         font-weight: ;
+         padding: 10px 20px; /* Espaçamento interno do botão*/
+         border-radius:5px; /*borda arredondada*/
+         text-decoration: none; /* remova o sublinahdo do link*/
+         transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+     }
+     .return-button img{
+        vertical-align:middle;/* Centralizar verticalmente a imagem*/
+        margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
+        max-width: 30px;
+        max-height: 30px;
+     }
+     .return-button:hover{
+        background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+     }    
+   </style>      
 <body>
     <h1>Quizz com Pontuação</h1>
     <form id="quizzForm">
