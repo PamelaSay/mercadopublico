@@ -1,25 +1,25 @@
 ul.Menu {
   margin: 0;
-  padding:20px ; /*Cor de fundo do Menu */
+  padding:20 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
-  background-color:Blue; /*Cor de fundo ao passar o mouse */
+  background-color: Blue; /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .4s;
-  margin-right: 20px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
   }
 ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
   margin-right:20 px ; /* Adicione o espaçamento desejado entre os itens */
-  font-size:20px;
-  font-weight: 0px;
+  font-size:20 px;
+  font-weight: 20 px;
   padding:0;
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
 }
 a.Menu li a:hover {
-  background-color:#399ed8; /*Cor de fundo ao passar o mouse */
+  background-color:Blue; /*Cor de fundo ao passar o mouse */
   }
    body{
     font-size: 12 px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
