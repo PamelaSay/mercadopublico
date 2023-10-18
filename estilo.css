@@ -23,16 +23,28 @@ a.Menu li a:hover {
   }
    body{
     font-size: 12 px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
-    font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
     background-size: cover;
     background-image:url("fundorg.jpg");
     display: block;
-    margin-right: auto;
+    margin:0;
+    padding:0;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
     background-position-x:center;
     background-position-y:center;
-   }
+      }
+@media(max-width:768px){
+  nav{
+    text-align:center;
+  }
+  nav ul{
+    flex-direction:column;
+  }
+  nav li{
+    margin:5px
+  }
+}
 
   h1 {
     font-size: 12 px;
