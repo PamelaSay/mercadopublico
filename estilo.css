@@ -1,29 +1,23 @@
 ul.Menu {
+  list-style-type: none;
   margin: 0;
-  padding:80 px; /*Cor de fundo do Menu */
+  padding: 12 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
-  background-color:Black; /*Cor de fundo ao passar o mouse */
+  background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
-  transition: background .4 s;
-  margin-right: 50 px ; /* Adicione o espaçamento desejado entre os itens */
-  
+  transition: background .4s;
 }
 
 ul.Menu li a {
-  list-style-type:none;
-  display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+  display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
-  margin-right:40 px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right:0 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:20 px;
-  font-weight:0 px;
-  padding:10 px;
+  font-weight:400 px;
+  padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
   float:center
-  text-transform: uppercase;
-    letter-spacing: 2 px;
-    background-color: coral;
-    transition: .3 s;
-    cursor: pointer;
+  cursor: pointer;
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
