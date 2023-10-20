@@ -1,7 +1,7 @@
 ul.Menu {
   list-style-type: none;
   text-align:center;
-  margin:2 px;
+  margin: 0 px;
   padding:0 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
@@ -15,7 +15,7 @@ ul.Menu li a {
   margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:10 px;
   font-weight:400 px;
-  padding:0 px;
+  padding:10 px;
   justify-content:center;/* centralizar horizontalemente*/
   float: none;
   cursor: pointer;
@@ -34,7 +34,7 @@ a.Menu li a:hover {
     font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
     display: block;
     margin:0;
-    padding:5px;
+    padding:2px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
     position:center;
