@@ -13,7 +13,7 @@ ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
   margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
-  font-size:20 px;
+  font-size:10 px;
   font-weight:400 px;
   padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
@@ -34,7 +34,7 @@ a.Menu li a:hover {
     font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
     display: block;
     margin:0;
-    padding:10px;
+    padding:5px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
     position:center;
@@ -151,6 +151,6 @@ a.Menu li a:hover {
   botton:0;
   color: white;
   background-color:Black;
-  padding:5 px;
+  padding:0 px;
 }
  
