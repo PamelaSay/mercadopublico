@@ -23,7 +23,7 @@ ul.Menu li a {
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-  margin: 5 px;
+  margin: 10 px 5 px 5 px 10 px;
 }
 a.Menu li a:hover {
   background-color:DarkTurquoise; /*Cor de fundo ao passar o mouse */
