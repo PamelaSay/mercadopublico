@@ -12,7 +12,7 @@ ul.Menu {
 ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
-  margin-right: 10 px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:20 px;
   font-weight:400 px;
   padding:0 px;
@@ -23,7 +23,7 @@ ul.Menu li a {
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-  margin: 10 px;
+  margin: 2 px;
 }
 a.Menu li a:hover {
   background-color:DarkTurquoise; /*Cor de fundo ao passar o mouse */
