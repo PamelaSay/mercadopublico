@@ -144,3 +144,11 @@ a.Menu li a:hover {
         background-color: 0;/* Cor do fundo do botão ao passar o mouse*/
      }
    
+ footer{
+   text-align:center;
+  margin:2 px;
+  padding: 30 px ; /*Cor de fundo do Menu */
+  box-sizing: border-box;
+   color: white;
+}
+ 
