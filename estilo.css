@@ -4,7 +4,7 @@ ul.Menu {
   margin: 20 px;
   padding:0 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
-  background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
+  background-color: Blue; /*Cor de fundo ao passar o mouse */
   transition: background .5s;
   display: flex;
   width:200px;
