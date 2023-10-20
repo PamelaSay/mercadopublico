@@ -1,7 +1,7 @@
 ul.Menu {
   list-style-type: none;
   text-align:center;
-  margin: 20 px;
+  margin: 0 2 px 2 px 2 px;
   padding:0 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: Blue; /*Cor de fundo ao passar o mouse */
