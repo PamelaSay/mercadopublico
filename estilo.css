@@ -12,7 +12,7 @@ ul.Menu {
 ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
-  margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right: 10 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size: 10 px;
   font-weight:10 px;
   padding: 5 px 10 px 10 px 5 px;
