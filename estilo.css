@@ -2,7 +2,7 @@ ul.Menu {
   list-style-type: none;
   text-align:center;
   margin:2 px;
-  padding:20 px ; /*Cor de fundo do Menu */
+  padding:0 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   transition: background .5s;
@@ -15,7 +15,7 @@ ul.Menu li a {
   margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:20 px;
   font-weight:400 px;
-  padding:20 px;
+  padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
   float: none;
   cursor: pointer;
@@ -151,6 +151,6 @@ a.Menu li a:hover {
   botton:0;
   color: white;
   background-color:Black;
-  padding:10 px;
+  padding:5 px;
 }
  
