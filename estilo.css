@@ -47,7 +47,7 @@
     width: 100%;
   }
   nav ul{
-    flex-direction:column;
+    flex-direction:nome;
   }
   nav li{
     margin:5 px
