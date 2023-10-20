@@ -15,7 +15,7 @@ ul.Menu li a {
   margin-right: 0 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size: 10 px;
   font-weight:10 px;
-  padding: 5 px 5 px 5 px 5 px;
+  padding: 5 px 10 px 10 px 5 px;
   justify-content:center;/* centralizar horizontalemente*/
   float: none;
   cursor: pointer;
