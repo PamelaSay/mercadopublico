@@ -1,35 +1,27 @@
-ul.Menu {
-  list-style-type: none;
-  text-align:center;
-  margin: 0 ;
-  padding:10 px; /*Cor de fundo do Menu */
-  box-sizing: border-box;
-  background-color: Blue; /*Cor de fundo ao passar o mouse */
-  transition: background .5s;
-  display: flex;
-}
 
-ul.Menu li a {
-  display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
-  color: white;/* Cor do texto do Menu */
-  margin-right: 10 px ; /* Adicione o espaçamento desejado entre os itens */
-  margin-botton: 10 px;
-  font-size: 10 px;
-  font-weight:10 px;
-  padding: 10 px;
-  justify-content:center;/* centralizar horizontalemente*/
-  float: none;
-  cursor: pointer;
-
-  }
-ul.Menu li{
-  display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-  margin: 10 px 5 px 5 px 10 px;
-}
-a.Menu li a:hover {
-  background-color:DarkTurquoise; /*Cor de fundo ao passar o mouse */
-  border-radius:5 px;
-  }
+  ful.Menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 12px ; /*Cor de fundo do Menu */
+            box-sizing: border-box;
+            background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
+            position: center ;
+            transition: background .4s;
+            }
+        ul.Menu li a {
+            display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
+            color: white;/* Cor do texto do Menu */
+            margin-right: 0px ; /* Adicione o espaçamento desejado entre os itens */
+            font-size: 20px;
+            font-weight: 400px;
+            padding:0;
+            }
+        ul.Menu li{
+            display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
+        }
+        ul.Menu li a:hover {
+            background-color: #399ed8; /*Cor de fundo ao passar o mouse */
+            }
    body{
     font-size: 12 px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
     font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
