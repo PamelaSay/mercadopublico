@@ -146,7 +146,7 @@ a.Menu li a:hover {
  footer{
   text-align:center;
   margin:2 px;
-  padding: 10 px ; /*Cor de fundo do Menu altura */
+  padding:0 px ; /*Cor de fundo do Menu altura */
   box-sizing: border-box;
   color: white;
   background-color:Black;
