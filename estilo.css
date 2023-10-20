@@ -34,7 +34,7 @@ a.Menu li a:hover {
     font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
     display: block;
     margin:0;
-    padding:2px;
+    padding:30px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
     position:center;
