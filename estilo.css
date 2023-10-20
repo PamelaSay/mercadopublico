@@ -7,8 +7,8 @@ ul.Menu {
   background-color: Blue; /*Cor de fundo ao passar o mouse */
   transition: background .5s;
   display: flex;
-  width:20px;
-  height:20px;
+  width:20 px;
+  height:20 px;
 }
 
 ul.Menu li a {
