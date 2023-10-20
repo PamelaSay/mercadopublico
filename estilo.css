@@ -1,26 +1,29 @@
 ul.Menu {
   list-style-type: none;
   margin: 0;
-  padding: 12 px ; /*Cor de fundo do Menu */
+  padding: 30 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
-  transition: background .4s;
+  transition: background .5s;
+  display: flex;
 }
 
 ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
-  margin-right:0 px ; /* Adicione o espaçamento desejado entre os itens */
+  margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:20 px;
   font-weight:400 px;
   padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
-  float:center
+  float: none;
   cursor: pointer;
+
   }
 ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+  margin: 10px;
 }
 a.Menu li a:hover {
   background-color:DarkTurquoise; /*Cor de fundo ao passar o mouse */
@@ -39,15 +42,32 @@ a.Menu li a:hover {
     float: center;
     position:center;
           }
-@media(max-width:768px){
+@media screen and (max-width:768px){
   nav{
     text-align:center;
+    width: 100%;
   }
   nav ul{
     flex-direction:column;
   }
   nav li{
     margin:5px
+
+  }
+}
+
+@media screen and (max-width:600 px){
+  nav{
+    text-align:center;
+    width: 100%;
+  }
+  nav ul{
+    flex-direction:column;
+  }
+  nav li{
+    text-align: center;
+    float: none;
+    width: 100%;
   }
 }
 
