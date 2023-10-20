@@ -145,12 +145,12 @@ a.Menu li a:hover {
    
  footer{
   text-align:center;
-  position:fixed;
+  position:absolute;
   width:100%;
   box-sizing: border-box;
   botton:0;
   color: white;
   background-color:Black;
-  padding:10 px;
+  margin:10 px;
 }
  
