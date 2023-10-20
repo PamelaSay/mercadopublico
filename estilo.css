@@ -2,7 +2,7 @@ ul.Menu {
   list-style-type: none;
   text-align:center;
   margin: 0 ;
-  padding:0; /*Cor de fundo do Menu */
+  padding:10 px; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: Blue; /*Cor de fundo ao passar o mouse */
   transition: background .5s;
@@ -13,7 +13,7 @@ ul.Menu li a {
   display: inline-block; /* isso faz com que os itens fiquem na mesma linha*/
   color: white;/* Cor do texto do Menu */
   margin-right: 10 px ; /* Adicione o espaçamento desejado entre os itens */
-  margin-botton: 10px
+  margin-botton: 10 px;
   font-size: 10 px;
   font-weight:10 px;
   padding: 10 px;
