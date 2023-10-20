@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-   <title>Planta Estrutural</title>
+   <title>História</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <style>
+</head>   
+   <style>
      /*Defina a imagem como plano de fundo do corpo da página */
      body{
-            background-image: url('quadro planta rio grande.png');
+            background-image: url("quadro20%planta20%rio20%grande.png");
             background-size: cover; /*Para ajustar a imagem ao tamanho da tela*/
             background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
-            background-position: absolute;
             float: center;
-     } 
+             } 
+     
+@media screen and (max-width:600 px){
+  nav{
+    text-align:center;
+    width: 100%;
+  }
+  nav ul{
+    flex-direction:column;
+  }
+  nav li{
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+}
    </style>
-   </body>
-   <a href="index.html" class="return-button">
+   <body>
+       <a href="index.html" class="return-button">
          <img src="botao%20retornar.png" alt="botao retornar">
        </a>  
-   </a>
-   <style>
+   </body>
+   <style>   
+               
      .return-button{
         display: inline; /* isso faz com que os itens fiquem na mesma linha*/
          background-color: 0/* Cor do texto do Menu */
@@ -40,36 +55,6 @@
      }
      .return-button:hover{
         background-color: 0/* Cor do fundo do botão ao passar o mouse*/
-     }
-      @media screen and (max-width:768 px){
-  nav{
-    text-align:center;
-    width: 100%;
-  }
-  nav ul{
-    flex-direction:column;
-  }
-  nav li{
-    margin:5 px
-
-  }
-}
-
-@media screen and (max-width:600 px){
-  nav{
-    text-align:center;
-    width: 100 %;
-  }
-  nav ul{
-    flex-direction:column;
-  }
-  nav li{
-    text-align: center;
-    float: none;
-    width: 100 %;
-  }
-}
-
-   </style>
- </head>
-</html>   
+     }    
+   </style>       
+</html>
