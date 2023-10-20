@@ -94,8 +94,8 @@ a.Menu li a:hover {
     transition: .3 s;
     cursor: pointer;
     justify-content:center;
-    
-  }
+    text-align: center;  
+    }
   
   .button:hover {
     box-shadow: 0 0 10 px 0 px black;
@@ -144,10 +144,11 @@ a.Menu li a:hover {
      }
    
  footer{
-   text-align:center;
+  text-align:center;
   margin:2 px;
-  padding: 30 px ; /*Cor de fundo do Menu */
+  padding: 10 px ; /*Cor de fundo do Menu altura */
   box-sizing: border-box;
-   color: white;
+  color: white;
+  background-color:Black;
 }
  
