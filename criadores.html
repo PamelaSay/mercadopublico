@@ -37,15 +37,32 @@
      .return-button:hover{
         background-color: 0/* Cor do fundo do botão ao passar o mouse*/
      }
-        @media(max-width:768px){
+        @media screen and (max-width:768 px){
   nav{
     text-align:center;
+    width: 100%;
   }
   nav ul{
     flex-direction:column;
   }
   nav li{
-    margin:5px
+    margin:5 px
+
+  }
+}
+
+@media screen and (max-width:600 px){
+  nav{
+    text-align:center;
+    width: 100%;
+  }
+  nav ul{
+    flex-direction:column;
+  }
+  nav li{
+    text-align: center;
+    float: none;
+    width: 100%;
   }
 }
                        
