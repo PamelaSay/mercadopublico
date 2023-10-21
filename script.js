@@ -1,4 +1,4 @@
-const questions = document.querySelector(".quest");
+const questions = document.querySelector(".question");
 const answers = document.querySelector(".answers");
 const spnQtd = document.querySelector(".spnQtd");
 const textFinish = document.querySelector(".finish span");
@@ -8,14 +8,14 @@ const btnRestar=document.querySelector(".finish button");
 
 import question from "./quest";
 
-let currentIndex = 0;
+let currentquizz_dois = 0;
 let questionsCorrect = 0; 
 
 btnRestar.onclick =()=>{
     content.style.display = "flex";
     contentFinish.style.display = "none";
 
-    currentIndex = 0;
+    currentquizz_dois = 0;
     questionsCorrect = 0;
     loadQuestion();
 };
@@ -26,7 +26,7 @@ function nextQuestion(e){
     }
 
     if(currentIndex<questions.length -1){
-      currentIndex++;
+      currentquizz_dois++;
       loadQuestion();
     }else{
         finish();
@@ -34,16 +34,16 @@ function nextQuestion(e){
 }
 
 function finish(){
-    textFinish.innerHTML = "voce acertou ${questionsCorrect} de ${questionslength}";
+    textFinish.innerHTML = "voce acertou ${questionsCorrect} de ${quest.length}";
     content.style.display ="none";
     contentFinish.style.display ="flex";
 }
 
 function loadQuestion(){
-    spnQtd.innerHTML = ${currentIndex+1}/${questionslength};
-    const item = questions[currentIndex];
+    spnQtd.innerHTML = ${currentquizz_dois+1}/${quest.length};
+    const item = questions[currentquizz_dois];
     answers.innerHTML = "./quest.js";
-    question.innerHTML = item.questions;
+    quest.innerHTML = item.questions;
 
     item.answers.forEach((answer) =>{
         const div = document.createElement("div");
