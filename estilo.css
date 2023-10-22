@@ -1,12 +1,13 @@
 ul.Menu {
-  list-style-type: none;
   margin: 0;
   padding: 30 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .5s;
-  display: inline;
+  display: flex;
+  align-text:center;
+  list-style:none;
  }
 
  ul.Menu li a {
@@ -35,7 +36,7 @@ ul.Menu {
     background-position:center;
     display: block;
     margin:2 px;
-    padding:10px 5px 5px 10px;
+    padding:5px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     position:center;
   }
@@ -51,7 +52,7 @@ ul.Menu {
 
   .button {
     display: inline;
-    padding: 1 rem;
+    padding: 5px;
     border-radius: 4  px;
     word-spacing: 8 px;
     font-weight: 20 px;
@@ -62,6 +63,7 @@ ul.Menu {
     transition: .3 s;
     cursor: pointer;
     justify-content:center;
+    text-decoration: none;
   }
   
   .button:hover {
@@ -74,7 +76,7 @@ ul.Menu {
     margin-right: 10 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
-    padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
+    padding: 10 px 10 px 10px 10 px; /* Espaçamento interno do botão*/
     border-radius:5 px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
