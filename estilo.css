@@ -19,6 +19,7 @@ ul.Menu {
   padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
   cursor: pointer;
+   align-text:center;
   }
  ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
@@ -42,7 +43,7 @@ ul.Menu {
   }
   img{
     max-width:100%;
-    height:auto;
+    max-height:80%;
   }
   h1 {
     font-size: 12 px;
