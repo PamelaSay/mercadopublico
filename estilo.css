@@ -1,6 +1,6 @@
 ul.Menu {
   margin: 0;
-  padding: 0px 30px 30px 30px ; /*Cor de fundo do Menu */
+  padding: 0px 30px 20px 30px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
@@ -51,7 +51,11 @@ ul.Menu {
     text-align: center;
     color: black;
   }
-
+footer{
+  font-size: 12 px;
+  text-align: center;
+  color: black;
+}
   .button {
     display: inline;
     padding: 5px;
