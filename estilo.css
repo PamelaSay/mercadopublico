@@ -1,6 +1,6 @@
 ul.Menu {
   margin: 0;
-  padding: 0px 30px 20px 30px ; /*Cor de fundo do Menu */
+  padding: 0px 30px 10px 30px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
@@ -58,6 +58,7 @@ footer{
   background-color: Black;
   box-sizing: border-box;
   padding:50px 2px;
+  background-size:cover;
 }
   .button {
     display: inline;
