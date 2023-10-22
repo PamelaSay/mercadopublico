@@ -61,6 +61,7 @@ main.footer{
   padding:5px 2px;
   background-size:cover;
   botton:0;
+  position:center;
 }
   .button {
     display: inline;
