@@ -60,6 +60,7 @@ footer{
   box-sizing: border-box;
   padding:50px 2px;
   background-size:cover;
+  margin-botton:0.5em;
 }
   .button {
     display: inline;
