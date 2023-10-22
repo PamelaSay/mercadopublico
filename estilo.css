@@ -54,7 +54,9 @@ ul.Menu {
 footer{
   font-size: 12 px;
   text-align: center;
-  color: black;
+  color: white;
+  background-color: Black;
+  padding:50px 2px;
 }
   .button {
     display: inline;
