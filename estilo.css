@@ -51,19 +51,15 @@ ul.Menu {
     color: black;
      position:center;
   }
-footer{
+footer_copyright{
+  display:flex;
   font-size: 12 px;
-  text-align:center;
+  justify-content:center;
   color: white;
   background-color: Black;
   box-sizing: border-box;
-  padding:10px 5px;
-  background-size:cover;
-  botton:0;
-  width:100%;
-  margin:auto auto;
-  position:absolute;
-  clean:both;
+  padding:1.5 rem;
+  width:100 %; 
 }
   .button {
     display: inline;
