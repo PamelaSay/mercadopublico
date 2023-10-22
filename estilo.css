@@ -44,7 +44,7 @@ ul.Menu {
   }
   img{
     max-width:100%;
-    max-height:100%;
+    max-height:auto;
   }
   h1 {
     font-size: 12 px;
