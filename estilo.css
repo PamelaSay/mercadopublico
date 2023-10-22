@@ -1,6 +1,7 @@
 #index.html
  ul.Menu {
   list-style-type: none;
+  text-align:right;
   margin: 0;
   padding: 30 px ; /*Cor de fundo do Menu */
   box-sizing: border-box;
