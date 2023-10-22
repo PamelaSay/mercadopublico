@@ -53,14 +53,16 @@ ul.Menu {
   }
 footer{
   font-size: 12 px;
-  align: center;
+  text-align:center;
   color: white;
   background-color: Black;
   box-sizing: border-box;
-  padding:5px 2px;
+  padding:10px 5px;
   background-size:cover;
   botton:0;
-  position:center;
+  width:100%;
+  margin:auto auto;
+  position:absolute;
 }
   .button {
     display: inline;
