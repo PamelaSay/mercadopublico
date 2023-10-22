@@ -6,7 +6,7 @@ ul.Menu {
   background-color: #0a0a0a; /*Cor de fundo ao passar o mouse */
   position: center ;
   transition: background .5s;
-  display: flex;
+  display: inline;
  }
 
  ul.Menu li a {
@@ -19,7 +19,6 @@ ul.Menu {
   justify-content:center;/* centralizar horizontalemente*/
   float: none;
   cursor: pointer;
-
   }
  ul.Menu li{
   display: inline; /* isso faz com que os itens fiquem na mesma linha*/
@@ -32,7 +31,6 @@ ul.Menu {
     font-size: 12 px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
     font-family: "Arial", Arial; /* este deve ser o nome da fonte que você obteve no Google Fonts */
     width:100%;
-    height:100%;
     background-image:url("fundorg.jpg");
     background-size:cover;
     display: block;
@@ -42,21 +40,6 @@ ul.Menu {
     float: center;
     position:center;
   }
-  @media screen and (max-width:600 px){
-  nav{
-    text-align:center;
-    width: 100%;
-  }
-  nav ul{
-    flex-direction:column;
-  }
-  nav li{
-    text-align: center;
-    float: none;
-    width: 100%;
-  }
- }
-
   h1 {
     font-size: 12 px;
     text-align: center;
@@ -76,17 +59,16 @@ ul.Menu {
     transition: .3 s;
     cursor: pointer;
     justify-content:center;
-    
   }
   
   .button:hover {
-    box-shadow: 0 0 10 px 0 px black;
+    box-shadow: 0 0 10 px 0 px ,black;
   }
   
   .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
-    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
+    margin-right: 10 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
     padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
@@ -104,13 +86,4 @@ ul.Menu {
     background-color: 0/* Cor do fundo do botão ao passar o mouse*/
   }    
 
-  .return-button img{
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30px;
-    max-height: 30px;
-  }
-  .return-button:hover{
-   background-color: 0/* Cor do fundo do botão ao passar o mouse*/
-  }
 
