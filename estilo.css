@@ -17,7 +17,6 @@ ul.Menu {
   font-weight:400 px;
   padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
-  float: none;
   cursor: pointer;
   }
  ul.Menu li{
@@ -36,9 +35,8 @@ ul.Menu {
     background-position:center;
     display: block;
     margin:2 px;
-    padding:10px 5px 5px 5px;
+    padding:10px 5px 5px 10px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
-    float: center;
     position:center;
   }
   h1 {
@@ -63,7 +61,7 @@ ul.Menu {
   }
   
   .button:hover {
-    box-shadow: 0 0 10 px 0 px ,black;
+    box-shadow: 10px 10px 0 px 10 px ,black;
   }
   
   .return-button{
