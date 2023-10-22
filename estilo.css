@@ -15,7 +15,6 @@ ul.Menu {
   color: white;/* Cor do texto do Menu */
   margin-right: 20 px ; /* Adicione o espaçamento desejado entre os itens */
   font-size:20 px;
-  font-weight:400 px;
   padding:0 px;
   justify-content:center;/* centralizar horizontalemente*/
   cursor: pointer;
@@ -52,7 +51,7 @@ ul.Menu {
     color: black;
      position:center;
   }
-main.footer{
+footer{
   font-size: 12 px;
   align: center;
   color: white;
@@ -65,10 +64,10 @@ main.footer{
 }
   .button {
     display: inline;
-    padding: 5px;
+    padding: 10px;
     border-radius: 4  px;
     word-spacing: 8 px;
-    font-weight: 20 px;
+    font-weight: 10 px;
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 2 px;
