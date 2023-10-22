@@ -54,13 +54,13 @@ ul.Menu {
   }
 footer{
   font-size: 12 px;
-  text-align: center;
+  align: center;
   color: white;
   background-color: Black;
   box-sizing: border-box;
-  padding:50px 2px;
+  padding:5px 2px;
   background-size:cover;
-  margin-botton:0.5em;
+  margin-botton:0px;
 }
   .button {
     display: inline;
