@@ -39,6 +39,10 @@ ul.Menu {
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     position:center;
   }
+  img{
+    max-width:100%;
+    height:auto;
+  }
   h1 {
     font-size: 12 px;
     text-align: center;
