@@ -35,8 +35,8 @@ ul.Menu {
     background-size:cover;
     background-position:center;
     display: block;
-    margin:0;
-    padding:5px 5px 5px 5px;
+    margin:2 px;
+    padding:10px 5px 5px 5px;
     background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
     float: center;
     position:center;
