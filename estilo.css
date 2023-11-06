@@ -25,6 +25,7 @@ h1{
 .logo{
     flex:10 %;
     text-align: center;
+    margin-right:80 px;
 }
 
 .menu1{
