@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    background-image: ;
     color: black;
     background-image: url(fundo.png);
     background-size: cover;
@@ -23,9 +22,9 @@ h1{
 }
 
 .logo{
-    flex:10 %;
+    flex:10%;
     text-align: center;
-    margin-right:80 px;
+    margin-right:40px;
 }
 
 .menu1{
@@ -40,7 +39,7 @@ h1{
     font-size: 30 px;
     text-decoration: none;
     padding: 25 px 25 px;
-    margin-left: 90 px;
+    margin-left: 120 px;
     text-align: center;
     margin-right:80 px;
 }
@@ -61,6 +60,7 @@ h1{
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2 px 1000 px 1 px fff inset;
+     margin-right:10 px;
     
 }
 #botaocontribuicao:hover{
@@ -88,8 +88,7 @@ document.forms["quizzForm"].elements;
 document.getElementById("resultado");
         resultadoDiv.innerHTML = "Sua pontuação é:" + pontuacao;
     }
-</scrip>
-}
+
 
 .button {
     border-radius: 100 rem;
@@ -104,7 +103,7 @@ document.getElementById("resultado");
     background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2 px 1000 px 1 px #fff inset;
+    box-shadow: 2 px 1000 px 1 px fff inset;
 }
 .button:hover {
     box-shadow: none;
@@ -118,26 +117,21 @@ document.getElementById("resultado");
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
-    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
+    margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
-    padding: 10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
-    border-radius:5 px; /*borda arredondada*/
+    padding: 10px 10px 10px 10px; /* Espaçamento interno do botão*/
+    border-radius:5px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
   }
 .return-button img{
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 20 px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30 px;
-    max-height: 30 px;
+    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30px;
+    max-height: 30px;
   }
 .return-button:hover{
     background-color: 0/* Cor do fundo do botão ao passar o mouse*/
   }    
-
- 
-  
-      }    
-    }
-  }
+ } }}
