@@ -22,15 +22,15 @@ h1{
 }
 
 .logo{
-    flex:90%;
+    flex:20px;
     text-align: center;
-    margin-right:20px;
+    margin-right:25px;
 }
 
 .menu1{
-    flex: 70 %;
+    flex: 80 %;
     text-align: center;
-    padding: 10 px;
+    padding: 20 px;
       
     }
 
@@ -39,7 +39,7 @@ h1{
     font-size: 30 px;
     text-decoration: none;
     padding: 25 px 25 px;
-    margin-left:60 px;
+    margin-left:30 px;
     text-align: center;
     margin-right:50 px;
 }
