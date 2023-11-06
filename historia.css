@@ -1,0 +1,36 @@
+*{
+   
+}
+
+body{
+    background-image: url(/imagem/historia_mercadopublico.jpg);
+    background-size: 1380px 610px; /*Para ajustar a imagem ao tamanho da tela*/
+    background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
+    background-position: cover;
+    float: center; 
+}
+
+h1{
+    color: white;
+
+}
+.return-button{
+    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+    background-color: 0;/* Cor do texto do Menu */
+    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
+    font-size: ;
+    font-weight: ;
+    padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
+    border-radius:5 px; /*borda arredondada*/
+    text-decoration: none; /* remova o sublinahdo do link*/
+    transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+  }
+.return-button img{
+    vertical-align:middle;/* Centralizar verticalmente a imagem*/
+    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30px;
+    max-height: 30px;
+  }
+.return-button:hover{
+    background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+  } 
