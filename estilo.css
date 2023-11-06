@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200 px) {
 
 *{
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body{
     margin: 0;
     background-image: ;
     color: black;
-    background-image: url(fundo.png.png);
+    background-image: url(fundo.png);
     background-size: cover;
 }
 
@@ -18,56 +18,56 @@ h1{
 }
 .navbar{
     display: flex;
-    height: 60px;
+    height: 60 px;
     background: black;
     justify-content: center;
     align-items: center;
 }
 
 .logo{
-    flex: 10%;
+    flex: 10 %;
     text-align: center;
 }
 
 .menu1{
-    flex: 80%;
+    flex: 80 %;
     text-align: center;
-    padding: 10px;
+    padding: 10 px;
       
     }
 
 .menu1 a{
     color: white;
-    font-size: 30px;
+    font-size: 30 px;
     text-decoration: none;
-    padding: 25px 25px;
-    margin-left: 70px;
+    padding: 25 px 25 px;
+    margin-left: 70 px;
     text-align: center;
-    margin-right: 90px;
+    margin-right: 90 px;
 }
 .menu1 a:hover{
     color: burlywood;
 }
 
 #botaocontribuicao{
-    border-radius: 100rem;
-    padding:1em;
-    font-size:30px;
-    padding: 9px 9px;
+    border-radius: 100 rem;
+    padding:1 em;
+    font-size:30 px;
+    padding: 9 px 9 px;
     color:#555555;
     text-decoration:none;
-    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    box-shadow: 0 0 6 px 0 rgba (157, 96, 212, 0.5);
+    border: solid 3 px transparent;
+    background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #fff inset;
+    box-shadow: 2 px 1000 px 1 px #fff inset;
     
 }
 #botaocontribuicao:hover{
     box-shadow: none;
     color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
-    border-radius: 5px;
+    border-radius: 5 px;
 }
 
 #quizzForm{
@@ -93,24 +93,24 @@ document.getElementById("resultado");
 }
 
 .button {
-    border-radius: 100rem;
-    padding:1em;
+    border-radius: 100 rem;
+    padding:1 em;
     font-family:'open_sanslight';
-    font-size:1.2em;
-    padding:.5rem 3rem;
+    font-size:1.2 em;
+    padding:.5 rem 3 rem;
     color:#555555;
     text-decoration:none;
-    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    box-shadow: 0 0 6 px 0 rgba (157, 96, 212, 0.5);
+    border: solid 3 px transparent;
+    background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #fff inset;
+    box-shadow: 2 px 1000 px 1 px #fff inset;
 }
 .button:hover {
     box-shadow: none;
     color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
-    border-radius: 5px;
+    border-radius: 5 px;
   }
 
 
@@ -122,23 +122,23 @@ document.getElementById("resultado");
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
-    padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
+    padding: 10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
     border-radius:5 px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
   }
 .return-button img{
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30px;
-    max-height: 30px;
+    margin-right: 20 px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30 px;
+    max-height: 30 px;
   }
 .return-button:hover{
     background-color: 0/* Cor do fundo do botão ao passar o mouse*/
   }    
 }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 600 px) {
     *{
         box-sizing: border-box;
     }
@@ -164,49 +164,49 @@ document.getElementById("resultado");
     }
     
     .logo{
-        flex: 10%;
+        flex: 10 %;
         text-align: center;
     }
     
     .menu1{
-        flex: 80%;
+        flex: 80 %;
         text-align: center;
-        padding: 10px;
+        padding: 10 px;
           
         }
     
     .menu1 a{
         color: white;
-        font-size: 30px;
+        font-size: 30 px;
         text-decoration: none;
-        padding: 25px 25px;
-        margin-left: 70px;
+        padding: 25 px 25 px;
+        margin-left: 70 px;
         text-align: center;
-        margin-right: 90px;
+        margin-right: 90 px;
     }
     .menu1 a:hover{
         color: burlywood;
     }
     
     #botaocontribuicao{
-        border-radius: 100rem;
-        padding:1em;
-        font-size:30px;
-        padding: 9px 9px;
+        border-radius: 100 rem;
+        padding:1 em;
+        font-size:30 px;
+        padding: 9 px 9 px;
         color:#555555;
         text-decoration:none;
-        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-        border: solid 3px transparent;
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+        box-shadow: 0 0 6 px 0 rgba (157, 96, 212, 0.5);
+        border: solid 3 px transparent;
+        background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
         background-origin: border-box;
         background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px #fff inset;
+        box-shadow: 2 px 1000 px 1 px #fff inset;
         
     }
     #botaocontribuicao:hover{
         box-shadow: none;
         color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
-        border-radius: 5px;
+        border-radius: 5 px;
     }
     
     #quizzForm{
@@ -232,24 +232,24 @@ document.getElementById("resultado");
     }
     
     .button {
-        border-radius: 100rem;
-        padding:1em;
+        border-radius: 100 rem;
+        padding:1 em;
         font-family:'open_sanslight';
-        font-size:1.2em;
-        padding:.5rem 3rem;
+        font-size:1.2 em;
+        padding:.5 rem 3 rem;
         color:#555555;
         text-decoration:none;
-        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-        border: solid 3px transparent;
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+        box-shadow: 0 0 6 px 0 rgba (157, 96, 212, 0.5);
+        border: solid 3 px transparent;
+        background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
         background-origin: border-box;
         background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px #fff inset;
+        box-shadow: 2 px 1000 px 1 px #fff inset;
     }
     .button:hover {
         box-shadow: none;
         color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
-        border-radius: 5px;
+        border-radius: 5 px;
       }
      
             
@@ -259,16 +259,16 @@ document.getElementById("resultado");
         margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
         font-size: ;
         font-weight: ;
-        padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
+        padding: 10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
         border-radius:5 px; /*borda arredondada*/
         text-decoration: none; /* remova o sublinahdo do link*/
         transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
       }
     .return-button img{
         vertical-align:middle;/* Centralizar verticalmente a imagem*/
-        margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
-        max-width: 40px;
-        max-height: 40px;
+        margin-right: 20 px;/* Margem a direita da imagem para separa-la do texto */
+        max-width: 40 px;
+        max-height: 40 px;
       }
     .return-button:hover{
         background-color: 0/* Cor do fundo do botão ao passar o mouse*/
