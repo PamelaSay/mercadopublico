@@ -28,7 +28,7 @@ h1{
 }
 
 .menu1{
-    flex: 80 %;
+    flex: 70 %;
     text-align: center;
     padding: 10 px;
       
@@ -39,9 +39,9 @@ h1{
     font-size: 30 px;
     text-decoration: none;
     padding: 25 px 25 px;
-    margin-left: 70 px;
+    margin-left: 40 px;
     text-align: center;
-    margin-right: 90 px;
+    margin-right:80 px;
 }
 .menu1 a:hover{
     color: burlywood;
@@ -54,9 +54,9 @@ h1{
     padding: 9 px 9 px;
     color:#555555;
     text-decoration:none;
-    box-shadow: 0 0 6 px 0 rgba (157, 96, 212, 0.5);
+    box-shadow: 0 0 6 px 0 rgba(157, 96, 212, 0.5);
     border: solid 3 px transparent;
-    background-image: linear-gradient (rgba (255, 255, 255, 0), rgba (255, 255, 255, 0)), linear-gradient (101 deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2 px 1000 px 1 px #fff inset;
@@ -64,7 +64,7 @@ h1{
 }
 #botaocontribuicao:hover{
     box-shadow: none;
-    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    color: rgba(#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5 px;
 }
 
