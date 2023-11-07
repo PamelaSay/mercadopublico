@@ -30,8 +30,8 @@ h1{
     text-decoration:none;
      }
 .logo-img{
-    width:10px;
-    height:5px;
+   max-width:10px;
+   max-height:5px;
 }
 
 .menu1{
