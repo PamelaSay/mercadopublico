@@ -21,12 +21,10 @@ h1{
 }
 
 .logo{
-    flex: 30 px;
-   width: 10px;
-    height:30px;
-    margin-left: 40px;/* Margem a direita da imagem para separa-la do texto */
-    
-}
+    position:absolute;
+    top:20px;
+    z-index: 60px;
+     }
 
 .menu1{
     flex: 80%;
