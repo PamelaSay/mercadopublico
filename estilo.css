@@ -48,7 +48,7 @@ h1{
     color: burlywood;
 }
 
-#botaocontribuicao{
+.botaocontribuicao{
     border-radius: 100 rem;
     padding:1 em;
     font-size:30 px;
@@ -64,13 +64,13 @@ h1{
      margin-right:10 px;
     
 }
-#botaocontribuicao:hover{
+.botaocontribuicao:hover{
     box-shadow: none;
     color: rgba(AE8625,F7EF8A,D2AC47,EDC967);
     border-radius: 5 px;
 }
 
-#quizzForm{
+.quizzForm{
     function calcularPontuacao(){
         //Inicializa a pontuação
         var pontuacao = 0;
