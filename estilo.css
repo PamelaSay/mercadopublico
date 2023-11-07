@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: 0;
 }
 
 body{    
@@ -12,12 +12,14 @@ body{
 h1{
     color: white;
 }
+
 .navbar{
     display: flex;
     height:60 px;
     background: black;
     justify-content: center;
     align-items: center;
+    ba
 }
 
 .logo{
