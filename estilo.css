@@ -22,8 +22,9 @@ h1{
 
 .logo{
     position:absolute;
-    top:20px;
-    z-index: 60px;
+    top:20 px;
+    left: 20 px;
+    z-index: 60 px;
      }
 
 .menu1{
