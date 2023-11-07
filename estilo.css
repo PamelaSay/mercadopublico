@@ -33,7 +33,7 @@ h1{
 .menu1{
     flex: 80%;
     text-align: center;
-    padding: 60 px;
+    padding: 10 px;
       
     }
 
@@ -42,7 +42,7 @@ h1{
     font-size: 30px;
     text-decoration: none;
     padding: 25px 25px;
-    margin-left: 40px;
+    margin-left: 70px;
     text-align: center;
     margin-right: 80px;
 }
