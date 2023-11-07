@@ -13,7 +13,7 @@ h1{
 }
 
 .navbar{
-    display: flex;
+    display: inline-block;
     height: 60px;
     background: black;
     justify-content: center;
