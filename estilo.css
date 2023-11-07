@@ -23,12 +23,13 @@ h1{
 .logo{
     flex:10%;
     position:absolute;
-    align-items:center;
+    align-items:left;
     top:2 px;
     left:5 px;
     z-index:5 px;
     text-decoration:none;
     max-wifth:5 px;
+    max-height:5 px;
      }
 .logo-img{
    max-width:5 px;
@@ -38,7 +39,7 @@ h1{
 .menu1{
     flex: 80%;
     text-align: center;
-    padding: 40px;
+    padding: 40 px;
       
     }
 
