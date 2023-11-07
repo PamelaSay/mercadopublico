@@ -4,8 +4,7 @@
 
 body{    
     background-image:url(fundo.png);
-    width: auto;
-    height:auto;
+    height:600px;
     background-repeat: no-repeat;
     }
 
