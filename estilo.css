@@ -4,8 +4,8 @@
 
 body{    
     background-image:url(fundo_comprimida.png);
-    height:600px;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
     }
 
 h1{
