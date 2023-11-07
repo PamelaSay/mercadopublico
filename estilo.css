@@ -24,7 +24,7 @@ h1{
     display:flex;
     align-items:center;/* Centralizar verticalmente a imagem*/
      }
-.logo-img
+.logo-img{
      height: 10px;
      margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
 }
