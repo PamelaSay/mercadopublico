@@ -21,13 +21,12 @@ h1{
 }
 
 .logo{
-    display-flex:20%;
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 5px;/* Margem a direita da imagem para separa-la do texto */
+    display:flex;
+    align-items:center;/* Centralizar verticalmente a imagem*/
      }
 .logo-img
-     width: 10px;
      height: 10px;
+     margin-right: 10px;/* Margem a direita da imagem para separa-la do texto */
 }
 
 .menu1{
