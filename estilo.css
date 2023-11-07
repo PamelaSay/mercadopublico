@@ -22,7 +22,8 @@ h1{
 
 .logo{
     flex: 30 px;
-   background-size: 30px 30px;
+   width: 10px;
+    height:30px;
     margin-left: 40px;/* Margem a direita da imagem para separa-la do texto */
     
 }
