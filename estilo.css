@@ -21,7 +21,7 @@ h1{
 }
 
 .logo{
-    
+    flex: 20%;
     margin-left: 2px;/* Margem a direita da imagem para separa-la do texto */
     max-width: 20px;
     max-height: 20px;
