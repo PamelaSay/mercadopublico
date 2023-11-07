@@ -21,15 +21,11 @@ h1{
 }
 
 .logo{
-    flex:10%;
-    position:absolute;
-   vertical-align:middle;
-    top:5 px;
-    margin-left:0px;
-    z-index:5 px;
-    text-decoration:none;
-    max-wifth:5 px;
-    max-height:5 px;
+    flex:20%;
+    vertical-align:middle;/* Centralizar verticalmente a imagem*/
+    margin-right: 5px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 5px;
+    max-height: 10px;
      }
 
 .menu1{
