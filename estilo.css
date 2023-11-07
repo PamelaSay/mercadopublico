@@ -21,7 +21,7 @@ h1{
 }
 
 .logo{
-    flex:20%;
+    display-flex:20%;
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
     margin-right: 5px;/* Margem a direita da imagem para separa-la do texto */
      }
