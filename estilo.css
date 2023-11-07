@@ -1,0 +1,141 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: ;
+    color: black;
+    background-image: url(../imagem/fundo.png);
+    background-size: cover;
+}
+
+
+h1{
+    color: white;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 10%;
+    text-align: center;
+}
+
+.menu1{
+    flex: 80%;
+    text-align: center;
+    padding: 10px;
+      
+    }
+
+.menu1 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 25px 25px;
+    margin-left: 70px;
+    text-align: center;
+    margin-right: 90px;
+}
+.menu1 a:hover{
+    color: burlywood;
+}
+
+#botaocontribuicao{
+    border-radius: 100rem;
+    padding:1em;
+    font-size:30px;
+    padding: 9px 9px;
+    color:#555555;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    
+}
+#botaocontribuicao:hover{
+    box-shadow: none;
+    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    border-radius: 5px;
+}
+
+#quizzForm{
+    function calcularPontuacao(){
+        //Inicializa a pontuação
+        var pontuacao = 0;
+
+        //Obtém as respostas selecionadas
+        var respostas =
+document.forms["quizzForm"].elements;
+
+        //Loop pelas respostas e soma os valores de pontuação das respostas corretas
+        for(var i=0; i<respostas.length; i++) {
+             if(respostas[i].type == 'radio' && respostas[i].checked){
+                    pontuacao += parseIn(respostas[i].value);  }
+        }
+        //Exibe a pontuação
+        var resultadoDiv =
+document.getElementById("resultado");
+        resultadoDiv.innerHTML = "Sua pontuação é:" + pontuacao;
+    }
+</scrip>
+}
+
+.button {
+    border-radius: 100rem;
+    padding:1em;
+    font-family:'open_sanslight';
+    font-size:1.2em;
+    padding:.5rem 3rem;
+    color:#555555;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+.button:hover {
+    box-shadow: none;
+    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    border-radius: 5px;
+  }
+
+
+
+    
+.return-button{
+    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+    background-color: 0;/* Cor do texto do Menu */
+    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
+    font-size: ;
+    font-weight: ;
+    padding: 10 px 1opx 10px 10 px; /* Espaçamento interno do botão*/
+    border-radius:5 px; /*borda arredondada*/
+    text-decoration: none; /* remova o sublinahdo do link*/
+    transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+  }
+.return-button img{
+    vertical-align:middle;/* Centralizar verticalmente a imagem*/
+    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30px;
+    max-height: 30px;
+  }
+.return-button:hover{
+    background-color: 0/* Cor do fundo do botão ao passar o mouse*/
+  }    
+
+
+ 
