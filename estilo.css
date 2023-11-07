@@ -24,14 +24,15 @@ h1{
     flex:10%;
     position:absolute;
     align-items:center;
-    top:2px;
-    left:5px;
-    z-index:5px;
+    top:2 px;
+    left:5 px;
+    z-index:5 px;
     text-decoration:none;
+    max-wifth:5 px;
      }
 .logo-img{
-   max-width:5px;
-   max-height:5px;
+   max-width:5 px;
+   max-height:5 px;
 }
 
 .menu1{
@@ -46,7 +47,7 @@ h1{
     font-size: 30px;
     text-decoration: none;
     padding: 25px 25px;
-    margin-left: 60px;
+    margin-left: 40px;
     text-align: center;
     margin-right: 80px;
 }
