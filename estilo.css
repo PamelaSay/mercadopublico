@@ -24,14 +24,16 @@ h1{
     flex:20%;
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
     margin-right: 5px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 5px;
-    max-height: 10px;
      }
+.logo-img
+     width: 10px;
+     height: 10px;
+}
 
 .menu1{
     flex: 80%;
     text-align: center;
-    padding: 40 px;
+    padding: 60 px;
       
     }
 
