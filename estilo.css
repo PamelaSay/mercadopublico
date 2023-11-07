@@ -5,7 +5,7 @@
 body{
     
     background-image:url(fundo.png);
-    background-size: 1380 px 610 px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: cover;
     float: center;
