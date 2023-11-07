@@ -5,7 +5,8 @@
 body{
     
     background-image:url(fundo.png);
-    background-size: cover;
+    max-width: 4000px;
+    max-height: 1000px;
     background-repeat: no-repeat;
     
    }
