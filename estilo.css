@@ -5,12 +5,11 @@
 body{
     
     background-image: url (fundo.png);
-    background-size: cover;
+    background-size: 1380 px 610 px;
     background-repeat: no-repeat;
     background-position: cover;
     float: center;
-}
-
+   }
 
 h1{
     color: white;
