@@ -14,7 +14,7 @@ h1{
 
 .navbar{
     display:flex;
-    height:40 px;
+    height:60 px;
     background: black;
     justify-content: center;
     align-items: center;
