@@ -22,7 +22,9 @@ h1{
 
 .logo{
     flex: 10%;
-    text-align: center;
+    width:150px;
+    height:auto;
+
 }
 
 .menu1{
