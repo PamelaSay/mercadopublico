@@ -21,11 +21,11 @@ h1{
 }
 
 .logo{
-    flex:10 %;
-    text-align:center;
-    top:5 px;
-    left: 20 px;
-    z-index: 60 px;
+    flex:10%;
+    align-items:center;
+    top:5px;
+    left:20px;
+    z-index:60px;
      }
 
 .menu1{
