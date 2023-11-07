@@ -23,10 +23,9 @@ h1{
 .logo{
     background-size:cover;
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30px;
-    max-height: 30px;
-
+    margin-right: 20 px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30 px;
+    max-height: 30 px;
 }
 
 .menu1{
