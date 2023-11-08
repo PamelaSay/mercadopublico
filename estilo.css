@@ -67,7 +67,7 @@ h1{
 
 .botaocontribuicao:hover{
     box-shadow: none;
-    color: rgba(#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    color: rgba(AE8625,F7EF8A,D2AC47,EDC967);
     border-radius: 5px;
 }
 
@@ -84,7 +84,7 @@ h1{
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
   }
-.return-button img{
+.return-button-img{
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
     margin-right:20 px;/* Margem a direita da imagem para separa-la do texto */
     margin-left:0;
