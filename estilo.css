@@ -96,8 +96,7 @@ footer{
     color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5px;
   }
-
-   
+  
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
@@ -115,6 +114,7 @@ footer{
     max-height: 30px;
   }
     
+
 
 
  
