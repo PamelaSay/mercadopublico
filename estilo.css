@@ -50,7 +50,7 @@ h1{
     color: burlywood;
 }
 
-#botaocontribuicao{
+.botaocontribuicao{
     border-radius: 100rem;
     padding:1em;
     font-size:30px;
@@ -65,7 +65,7 @@ h1{
     box-shadow: 2px 800px 1px #fff inset;
     
 }
-#botaocontribuicao:hover{
+.botaocontribuicao:hover{
     box-shadow: none;
     color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5px;
@@ -135,6 +135,7 @@ document.getElementById("resultado");
 .return-button img{
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
     margin-right:20 px;/* Margem a direita da imagem para separa-la do texto */
+    margin-left:0;
     max-width:30 px;
     max-height:30 px;
    }
