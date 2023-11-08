@@ -9,6 +9,9 @@ body{
     justify-content: center;
     min-height:100vh;
 }
+label{
+    text-decoration:none;
+}
 
 .menssagem{
     display:flex;
