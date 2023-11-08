@@ -112,6 +112,11 @@ h1{
     color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5px;
   }
+.response{
+    text-align:center;
+    margin:20px;
+    color:green;
+}
     
 
 
