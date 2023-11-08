@@ -121,24 +121,5 @@ document.getElementById("resultado");
 
 
 
-    
-.return-button{
-    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
-    font-size: ;
-    font-weight: ;
-    padding:10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
-    border-radius:5 px; /*borda arredondada*/
-    text-decoration: none; /* remova o sublinahdo do link*/
-    transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
-  }
-.return-button img{
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right:20 px;/* Margem a direita da imagem para separa-la do texto */
-    margin-left:0;
-    max-width:30 px;
-    max-height:30 px;
-   }
-
 
  
