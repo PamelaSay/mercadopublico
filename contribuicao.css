@@ -20,7 +20,7 @@
     width: 500px;
     text-decoration: none;
 }
-.contato h2{
+h2{
     display:block;
     font:white;
     text-align:center;
@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-.contato form{
+form{
     display: flex;
     flex-direction: column;
     padding: 10px;
