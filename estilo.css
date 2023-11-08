@@ -51,8 +51,8 @@ h1{
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    background-origin: border-radius;
-    background-clip: content-box, border-radius;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
     box-shadow: 2px 800px 1px #fff inset;
     
 }
@@ -99,6 +99,7 @@ h1{
     margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
     max-width: 30px;
     max-height: 30px;
+    text-decoration: none;
   }
 .d-flex p-1 footer{
     display:inline-block;
@@ -119,26 +120,25 @@ footer{
     display: flex;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     align-items: center;
     justify-content: center;
     min-height:100vh;
     }
 
 .menssagem{
-    display: flex;
     display:flex;
     align-items: center;
     justify-content: center;
     padding: 10px 45px;
     width: 500px;
+    text-decoration: none;
 }
 .contato h2{
     display:block;
     font:white;
     text-align:center;
     margin:0;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .contato form{
