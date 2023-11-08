@@ -1,39 +1,34 @@
+
 *{
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
-body{    
-    background-image:url(fundoredu.png);
-    background-size:cover;
-    background-repeat:no-repeat;
-    text-align:center;
-    }
+body{
+    margin: 0;
+    background-image: ;
+    color: black;
+    background-image: url(../imagem/fundo.png);
+    background-size: cover;
+}
+
 
 h1{
     color: white;
 }
-
 .navbar{
-    display:flex;
-    height:50 px;
+    display: flex;
+    height: 60px;
     background: black;
     justify-content: center;
     align-items: center;
 }
 
-.logo{
-    display:flex;
-    align-items:center;/* Centralizar verticalmente a imagem*/
-     }
-.logo-img{
-     height: 10px;
-     margin-right: 2px;/* Margem a direita da imagem para separa-la do texto */
-}
+
 
 .menu1{
     flex: 80%;
     text-align: center;
-    padding: 10 px;
+    padding: 10px;
       
     }
 
@@ -44,78 +39,135 @@ h1{
     padding: 25px 25px;
     margin-left: 70px;
     text-align: center;
-    margin-right: 70px;
+    margin-right: 90px;
 }
 .menu1 a:hover{
     color: burlywood;
 }
+.d-flex p-1 footer{
+    display:inline-block;
+    position: static;
+    bottom: 0px;
+}
+    
+.ps-1 text-muted{
+        bottom: 0px;
+}      
 
-.botaocontribuicao{
+footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+.contato{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    }
+.menssagem{
+    display: flex;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 45px;
+    width: 500px;
+}
+.contato h2{
+    display:block;
+    font:white;
+    text-align:center;
+    margin:0;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
+    border-radius: 10% 0;
+    
+    
+
+    
+}
+form label{
+    color:white;
+    font-size: 17px;
+    margin-bottom: 4px;
+    flex-direction: column;
+    
+
+}
+  
+
+#botaocontribuicao{
     border-radius: 100rem;
     padding:1em;
     font-size:30px;
     padding: 9px 9px;
-    font-color:black;
+    color:#555555;
     text-decoration:none;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 800px 1px #fff inset;
-    
-  }
-
-.botaocontribuicao:hover{
-    box-shadow: none;
-    color: (#AE8625, #F7EF8A,#D2AC47, #EDC967);
-    border-radius: 5px;
-  }
-
-.mensagem{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 2px 1000px 1px #fff inset;
     
 }
-.return-button{
-    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    padding: 10px 10px 10px 10px; /* Espaçamento interno do botão*/
-    border-radius:0px; /*borda arredondada*/
-    text-decoration: none; /* remova o sublinahdo do link*/
-    transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
-  }
-.return-button img{
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30px;
-    max-height: 30px;
-  }
-.return-button:hover{
-    background-color: 0/* Cor do fundo do botão ao passar o mouse*/
-  } 
-    
+#botaocontribuicao:hover{
+    box-shadow: none;
+    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    border-radius: 5px;
+}
+
 
 .button {
     border-radius: 100rem;
     padding:1em;
-    font-family:"open_sanslight";
+    font-family:'open_sanslight';
     font-size:1.2em;
     padding:.5rem 3rem;
     color:#555555;
     text-decoration:none;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px fff inset;
+    box-shadow: 2px 1000px 1px #fff inset;
 }
 .button:hover {
     box-shadow: none;
-    color: (#AE8625, #F7EF8A, #D2AC47, #EDC967);
+    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5px;
   }
+
+   
+.return-button{
+    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+    background-color: 0;/* Cor do texto do Menu */
+    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
+    padding: 10 px 10px 10px 10 px; /* Espaçamento interno do botão*/
+    border-radius:5 px; /*borda arredondada*/
+    text-decoration: none; /* remova o sublinahdo do link*/
+    transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
+    z-index: index 0;
+  }
+.return-button img{
+    vertical-align:top;/* Centralizar verticalmente a imagem*/
+    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
+    max-width: 30px;
+    max-height: 30px;
+  }
+    
+
+
+ 
 
     
 
