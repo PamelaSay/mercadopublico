@@ -44,14 +44,10 @@ h1{
 .menu1 a:hover{
     color: burlywood;
 }
-.d-flex p-1 footer{
-    display:inline-block;
-    position: static;
-    bottom: 0px;
-}
-    
+ 
 .ps-1 text-muted{
         bottom: 0px;
+        position:static;
 }      
 
 footer{
