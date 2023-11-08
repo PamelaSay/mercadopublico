@@ -78,16 +78,18 @@ h1{
     align-items: center;
     
 }
-.return-button{
+.voltar{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+    position:absolute;
     border-radius:1px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
   }
-.return-button-img{
+.voltar-img{
+    top: 2cm; /* Adicione o espaçamento desejado entre os itens */
+    left:2cm;
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right:20 px;/* Margem a direita da imagem para separa-la do texto */
+    margin-right:0 px;/* Margem a direita da imagem para separa-la do texto */
     margin-left:0;
     width:30 px;
     height:30 px;
