@@ -7,7 +7,7 @@ body{
     margin: 0;
     background-image: ;
     color: black;
-    background-image: url(../imagem/fundo.png);
+    background-image: url(fundo.png);
     background-size: cover;
 }
 
@@ -88,13 +88,9 @@ footer{
     flex-direction: column;
     padding: 10px;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #AE8625,#F7EF8A,#D2AC47,#EDC967);
-    border-radius: 10% 0;
-    
-    
-
-    
+    border-radius: 10% 0;     
 }
-form label{
+.form label{
     color:white;
     font-size: 17px;
     margin-bottom: 4px;
