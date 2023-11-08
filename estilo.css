@@ -58,6 +58,27 @@ footer{
     text-align: center;
     background-color: #fff;
 }
+.botaocontribuicao{
+    border-radius: 100rem;
+    padding:1em;
+    font-size:30px;
+    padding: 9px 9px;
+    color:black;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 800px 1px #fff inset;
+    
+}
+.botaocontribuicao:hover{
+    box-shadow: none;
+    color: (darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 5px;
+}
+
 
 .button {
     border-radius: 100rem;
