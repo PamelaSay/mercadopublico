@@ -33,7 +33,7 @@ h1{
     }
 
 .menu1 a{
-    color: white;
+    color:white;
     font-size: 30px;
     text-decoration: none;
     padding: 25px 25px;
@@ -100,7 +100,7 @@ footer{
 }
   
 
-#botaocontribuicao{
+.botaocontribuicao{
     border-radius: 100rem;
     padding:1em;
     font-size:30px;
@@ -115,16 +115,20 @@ footer{
     box-shadow: 2px 1000px 1px #fff inset;
     
 }
-#botaocontribuicao:hover{
+.botaocontribuicao:hover{
     box-shadow: none;
     color: (#AE8625, #F7EF8A, #D2AC47, #EDC967);
     border-radius: 5px;
 }
-
+.mensagem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 .button{
     border-radius: 100rem;
     padding:1em;
-    font-family:'open_sanslight';
+    font-family:open_sanslight;
     font-size:1.2em;
     padding:.5rem 3rem;
     color:#555555;
@@ -145,7 +149,6 @@ footer{
    
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    background-color: 0;/* Cor do texto do Menu */
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     padding: 10 px 10px 10px 10 px; /* Espaçamento interno do botão*/
     border-radius:5 px; /*borda arredondada*/
