@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
 }
@@ -97,7 +96,7 @@ footer{
     border-radius: 5px;
   }
   
-.return-button{
+.button return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
@@ -107,7 +106,7 @@ footer{
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
     z-index: index 0;
   }
-.return-button img{
+.button return-button img{
     vertical-align:top;/* Centralizar verticalmente a imagem*/
     margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
     max-width: 30px;
