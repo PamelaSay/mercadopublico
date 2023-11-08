@@ -32,8 +32,13 @@ a{
    text-decoration: none;
     align-items:center;
 }
+section{
+    background: linear-gradient (rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient (101deg, darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 10% 0;  
+    text-decoration:none;
+}
 
-.form{
+.section form{
     display: flex;
     flex-direction: column;
     padding: 10px;
