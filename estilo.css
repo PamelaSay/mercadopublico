@@ -63,24 +63,23 @@ h1{
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 800px 1px #fff inset;
-    
-}
+  }
+
 .botaocontribuicao:hover{
     box-shadow: none;
-    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    color: rgba(#AE8625,#F7EF8A,#D2AC47,#EDC967);
     border-radius: 5px;
 }
+
 .mensagem{
-     display:flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     
 }
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    background-color:0;
     margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
-    padding:10px 10px 10px 10px; /* Espaçamento interno do botão*/
     border-radius:1px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
@@ -89,8 +88,8 @@ h1{
     vertical-align:middle;/* Centralizar verticalmente a imagem*/
     margin-right:20 px;/* Margem a direita da imagem para separa-la do texto */
     margin-left:0;
-    max-width:30 px;
-    max-height:30 px;
+    width:30 px;
+    height:30 px;
    }
 
 .button {
