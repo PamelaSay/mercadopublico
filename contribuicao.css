@@ -1,5 +1,6 @@
 *{
-    }
+   box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -8,6 +9,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height:100vh;
+    background-image: url(fundoredu.png);
+    background-size: cover;
 }
 label{
     text-decoration:none;
