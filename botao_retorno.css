@@ -1,10 +1,9 @@
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
-    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
-    font-size: ;
-    font-weight: ;
-    padding:10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
-    border-radius:5 px; /*borda arredondada*/
+    background-color:0;
+    margin-right: 2px; /* Adicione o espaçamento desejado entre os itens */
+    padding:10px 10px 10px 10px; /* Espaçamento interno do botão*/
+    border-radius:1px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
   }
