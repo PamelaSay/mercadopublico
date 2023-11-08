@@ -95,9 +95,10 @@ footer{
 }
  
 .botaocontribuicao{
-    border-radius: 100rem;
+    border-radius: 10px ;
     padding:1em;
     font-size:30px;
+    font-color:black;
     padding: 9px 9px;
     color:555555;
     text-decoration:none;
