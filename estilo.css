@@ -79,21 +79,18 @@ h1{
     
 }
 .voltar{
-    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     position:absolute;
-    border-radius:1px; /*borda arredondada*/
-    text-decoration: none; /* remova o sublinahdo do link*/
-    transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
-  }
-.voltar-img{
     top: 2cm; /* Adicione o espaçamento desejado entre os itens */
     left:2cm;
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right:0 px;/* Margem a direita da imagem para separa-la do texto */
-    margin-left:0;
-    width:30 px;
-    height:30 px;
-   }
+    background-image:url(botao-retornar.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+    color:white;
+    padding:10px 20px;
+    border-radius:1px; /*borda arredondada*/
+    text-decoration: none; /* remova o sublinahdo do link*/
+    border:none;
+    
 
 .button {
     border-radius: 100rem;
