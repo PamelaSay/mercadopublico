@@ -40,60 +40,7 @@ h1{
 .menu1 a:hover{
     color: burlywood;
 }
-.d-flex p-1 footer{
-    display:inline-block;
-    position: static;
-    bottom: 0px;
-}
-    
-.ps-1 text-muted{
-        bottom: 0px;
-}      
 
-footer{
-    text-align: center;
-    background-color: #fff;
-}
-
-.contato{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    min-height:100vh;
-    }
-
-.menssagem{
-    display: flex;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 45px;
-    width: 500px;
-}
-.contato h2{
-    display:block;
-    font:white;
-    text-align:center;
-    margin:0;
-}
-
-.contato form{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 10% 0;     
-}
-.form label{
-    color:white;
-    font-size: 17px;
-    margin-bottom: 4px;
-    flex-direction: column;
-}
- 
 .botaocontribuicao{
     border-radius: 5px ;
     padding:2px;
@@ -154,7 +101,60 @@ footer{
     max-width: 30px;
     max-height: 30px;
   }
+    .d-flex p-1 footer{
+    display:inline-block;
+    position: static;
+    bottom: 0px;
+}
     
+.ps-1 text-muted{
+        bottom: 0px;
+}      
+
+footer{
+    text-align: center;
+    background-color: #fff;
+}
+
+.contato{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    }
+
+.menssagem{
+    display: flex;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 45px;
+    width: 500px;
+}
+.contato h2{
+    display:block;
+    font:white;
+    text-align:center;
+    margin:0;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 10% 0;     
+}
+.form label{
+    color:white;
+    font-size: 17px;
+    margin-bottom: 4px;
+    flex-direction: column;
+}
+ 
 
 
  
