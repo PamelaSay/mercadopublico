@@ -53,7 +53,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     background-color: blue;
-    color: white;
+    color: black;
 }
 .finish{
     display: none;
