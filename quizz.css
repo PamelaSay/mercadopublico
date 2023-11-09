@@ -9,7 +9,7 @@ html {
 body {
     font-family: sans-serif;
     padding:10px;
-    display:block;
+    display:inline;
     flex-direction: column;
     background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     text-align:center;
