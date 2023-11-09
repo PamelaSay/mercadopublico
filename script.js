@@ -1,18 +1,72 @@
-function calcularPontuacao(){
-            //Inicializa a pontuação
-            var pontuacao = 0;
+const question = document.querySelector(".question");
+const answers = document.querySelector(".answers");
+const spnQtd = document.querySelector(".spnQtd");
+const textFinish = document.querySelector(".finish span");
+const content = document.querySelector(".content");
+const contentFinish = document.querySelector(".finish");
+const btnRestart = document.querySelector(".finish button");
 
-            //Obtém as respostas selecionadas
-            var respostas =
-document.forms["quizzForm"].elements;
+import question from "./questions";
 
-            //Loop pelas respostas e soma os valores de pontuação das respostas corretas
-            for(var i=0; i<respostas.length; i++) {
-                 if(respostas[i].type == 'radio' && respostas[i].checked){
-                        pontuacao += parseIn(respostas[i].value);  }
-            }
-            //Exibe a pontuação
-            var resultadoDiv =
-document.getElementById("resultado");
-            resultadoDiv.innerHTML = "Sua pontuação é:" + pontuacao;
-        }
+let currentIndex = 0;
+let questionsCorrect = 0;
+
+btnRestart.onclick=()=>{
+    content.style.display="flex";
+    contentFinish.style.display="none";
+
+    currentIndex = 0;
+    questionsCorrect = 0;
+    loadQuestion();
+};
+
+function nestQuestion(e){
+    if(e.target.getAttribute("data-correct") === "true"){
+        questionsCorrect++;
+    }
+    if (currentIndex < questions.length -1){
+        currentIndex++;
+        loadQuestion();
+    }else{
+        finish ();
+    }
+    }
+
+    function finish(){
+        textFinish.innerHTML = "você acertou ${questionsCorrect"} de ${questions.length}";
+        content.style.display="none";
+        contentFinish.style.display = "flex";
+    }
+}
+
+
+loadQuestion();
+function loadQuestion(){
+    spnQtd.innerHTML= "${currentIndex+1}/${questions.length}";
+    const item =questions[currentIndex];
+    answers.innerHTML = "";
+    question.innerHTML = item.question;
+
+    item.answers.array.forEach((answers) => {
+     const div = document.createElement("div");
+
+     div.innerHTML=
+     <button class="answer" data-correct="${answer.correct}">
+         ${answers.option} 
+     </button>
+     ;
+     answers.appendChild(div);
+    });
+    document.querySelectorAll(".answer").forEach((item)=>{
+        item.addEventListener("click", nestQuestion);
+    });
+}
+
+
+    
+loadQuestion();
+
+
+
+
+}  
