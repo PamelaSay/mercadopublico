@@ -15,7 +15,7 @@ html {
 }
 body {
     widtg:100%;
-    min-heigth:100vh;
+    min-heigth:50%;
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     display:flex;
     justify-content:center;
