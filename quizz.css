@@ -23,12 +23,13 @@ body {
     margim:15px;
 }
 .quiz{
-    background-color:white;
+    background-color:white center;
     border-radius:10px;
     box-shadow:0 2px 2px black;
     width:500px;
     max-width:100%;
     align-items:center;
+    
 }
 .quiz,
 .choices {
