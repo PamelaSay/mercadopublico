@@ -38,12 +38,11 @@ body {
     list-style-type: none;
    }
 .choices li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     padding:2px;    
 }
 .choices label {
     display: inline;
-    align-items: center;
     text-align:auto;
 }
 .choices label,
@@ -51,7 +50,7 @@ input[type="radio"] {
     cursor: pointer;
     border:2px solid f0f0f0;
     display:inline;
-    font-size:14px;
+    font-size:10px;
     width:100%;
    }
 input[type="radio"] {
