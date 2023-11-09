@@ -7,7 +7,7 @@
     font-family: "poppins",sans-serif;
 }
 
-body {
+body{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,10 +16,10 @@ body {
     gap:5px;
     background-color: blue;
 }
-body h2 {
+body h2{
     color:white;
 }
-main {
+main{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -30,14 +30,14 @@ main {
     align-items: center;
     justify-content: center;
 }
-.content {
+.content{
     display:flex;
     flex-direction: column;
     width: 100%;
     gap:10px;
 
 }
-.spnQtd {
+.spnQtd{
     text-align: end;
 }
 
@@ -46,7 +46,7 @@ main {
     flex-direction: column;
     gap: 5px;
 }
-button {
+button{
     width: 100%;
     text-align: start;
     padding: 5px;
@@ -56,12 +56,12 @@ button {
     background-color: blue;
     color: white;
 }
-.finish {
+.finish{
     display: none;
     flex-direction: column;
     gap: 10px;
 }
-.finish button {
+.finish button{
     text-align: center;
 }
   
