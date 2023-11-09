@@ -8,11 +8,9 @@ html {
 }
 body {
     font-family: sans-serif;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;  
-    
+    padding: 10px;
+    display:flex;
+    flex-direction: column;    
 }
 
 .quiz,
@@ -42,7 +40,7 @@ input[type="radio"] {
     cursor: pointer;
     font-size: inherit;
     color: white;
-    background: teal;
+    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-radius: 8px;
     margin-right: 5px;
 }
