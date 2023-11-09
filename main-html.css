@@ -13,7 +13,7 @@ main .center > #err-msg{
     font-size: 28px;
     text-align: center;
     color: red;
-    padding-bottom:  16px;
+    padding-bottom: 5px;
     display: none;
 }
 
