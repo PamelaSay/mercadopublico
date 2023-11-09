@@ -87,8 +87,8 @@ section form .resposta{
 /** Button **/
 button{
     outline:  0;
-    border: 1px solid var(green);
-    background-color:  var(green-ligth);
+    border: 1px solid var(--green);
+    background-color:  var(--green-ligth);
     width:  100px;
     padding: 6px 0;
     cursor: pointer;
@@ -97,6 +97,7 @@ button{
     margin-top: 18px;
     border-radius: 20px;
     transition: 0.6s;
+    text-align:center;
 }
 
 button:hover{
