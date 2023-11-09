@@ -7,7 +7,12 @@ body{
 
 main .center{
     padding:  30px 2%;
-    border:
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 10% 0;
+    align-items: center;
 }
 
 /*** msg de erro ***/
