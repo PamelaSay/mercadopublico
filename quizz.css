@@ -35,15 +35,13 @@ input[type="radio"] {
     margin-right: 8px;
 }
 .view-results {
-    display:inline;
     padding:1rem;
     cursor: pointer;
     font-size: inherit;
-    color: white;
+    color:black;
     background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
 }
 .my-results {
-    display:inline;
     padding: 1rem;
     border: 1px solid goldenrod;
 }
