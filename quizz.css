@@ -19,7 +19,7 @@ body {
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     justify-content:center;
     font-family: sans-serif;
-    padding: 10px 0px 10px 0px; 
+    padding:5px; 
     }
 .quiz{
     background: white;
@@ -27,6 +27,7 @@ body {
     box-shadow:0 2px 4px black;
     width:500px;
     max-width:100%;
+    padding:0px 3px 3px 0px;
        
 }
 .quiz,
@@ -35,7 +36,7 @@ body {
     padding: 0;
 }
 .choices li {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .choices label {
     display: flex;
