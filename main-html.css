@@ -21,7 +21,7 @@ main .center > #err-msg{
     font-size: 28px;
     text-align: center;
     color: red;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     display: none;
 }
 
@@ -43,8 +43,8 @@ label{
 
 form input[type = "radio"]:checked + label{
     background-color: var(--orange);
-    border:  2px solid var(--green);
-    display: inline-block;
+    border:2px solid var(--green);
+    display:inline-block;
     background:  url() no-repeat center/cover,  var(--orange);
 } 
 
@@ -53,19 +53,23 @@ form input[type = "radio"]:checked + label{
     text-align: center;
     padding-top:  16px;
     padding-bottom: 16px;
-    font-size:  30px;
-    font-weight:700px;
+    font-size: 20px;
+    font-weight:200px;
     color:  var(--orange);
 }
 
 /** Section wraper **/
 section.wraper{
     width:  80%;
-    max-width:  450px;
+    max-width: 200px;
     border: 2px solid var(--orange);
     border-radius: 8px;
     padding: 20px 2%;
     margin: 0 auto;
+}
+section.wraper h1{
+    padding-bottom: 10px;
+    font-size:20px;
 }
 
 section.wraper h3{
@@ -87,13 +91,13 @@ section form .resposta{
 }
 
 .resposta:not(:last-of-type){
-    margin-bottom:  14px;
+    margin-bottom:5px;
 }
 
 /** Button **/
 button{
     outline:  0;
-    border: 1px solid var(--green);
+    border: 5px solid var(--black);
     background-color:  var(--green-ligth);
     width:  100px;
     padding: 6px 0;
@@ -114,7 +118,7 @@ button:hover{
 section.bloco, section.res-final{
     width: 100%;
     max-width: 450px;
-    height:  80%;
+    height: 40%;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -126,8 +130,7 @@ section.bloco, section.res-final{
 
 section.bloco > img{
     width: 100%;
-    height: 100%;
-   
+    height: 100%;   
 }
 
 section.bloco > button{
@@ -158,7 +161,7 @@ section.res-final h3{
 section.res-final > img{
     width: 100%;
     height:  100%;
-    opacity: 0.3;
+    
 }
 
 section.res-final .text{
