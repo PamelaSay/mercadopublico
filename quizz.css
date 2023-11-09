@@ -28,6 +28,7 @@ body {
 .choices label,
 input[type="radio"] {
     cursor: pointer;
+    align-items:center;
 }
 input[type="radio"] {
     margin-right: 8px;
