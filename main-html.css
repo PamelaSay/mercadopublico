@@ -1,7 +1,20 @@
+.header{
+    background-color:white;
+    padding:3px;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     overflow-y: visible;
+    widtg:100%;
+    min-heigth:100px;
+    background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+     padding:5px; 
 }
 
 main .center{
