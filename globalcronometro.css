@@ -19,9 +19,8 @@ main .center > #err-msg{
 
 /*** inputs ***/
 form input[type=radio]{
-   display:block;
-    border-block:3px;
-    
+    display:flex;
+    border-block:3px;  
 }  
 
 label{
@@ -37,7 +36,7 @@ label{
 
 form input[type = "radio"]:checked + label{
     background-color: var(--orange);
-    border:  2px solid var(--green);
+    border: 2px solid var(--green);
     display: inline-block;
     background:  url( ) no-repeat center/cover,  var(--orange);
 } 
@@ -48,7 +47,7 @@ form input[type = "radio"]:checked + label{
     padding-top:  10px;
     padding-bottom:  20px;
     font-size: 20px;
-    font-weight:  700px;
+    font-weight:500px;
     color:  var(--orange);
 }
 
@@ -63,7 +62,7 @@ section.wraper{
 }
 
 section.wraper h3{
-    padding-bottom: 18px;
+    padding-bottom: 15px;
 }
 
 section form .resposta{
@@ -92,7 +91,7 @@ button{
     width:  100px;
     padding: 6px 0;
     cursor: pointer;
-    display: block;
+    display: inline;
     margin: 0 auto;
     margin-top: 18px;
     border-radius: 20px;
@@ -150,10 +149,9 @@ section.res-final h3{
 }
 
 section.res-final > img{
-    width: 100%;
-    height:  100%;
-    opacity: 0.3;
-}
+    width: 80%;
+    height: 80%;
+    }
 
 section.res-final .text{
     position: absolute;
