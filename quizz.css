@@ -52,11 +52,10 @@ input[type="radio"] {
     display:inline;
     font-size:14px;
     width:100%;
-    padding:5px;
-}
+   }
 input[type="radio"] {
     margin-right:2px;
-    text-align:left 8px;
+    text-align:left 0px;
 }
 .view-results {
     display:inline;
