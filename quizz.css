@@ -19,13 +19,13 @@ body {
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     justify-content:center;
     font-family: sans-serif;
-    padding: 1rem;
+    padding: 5px;
     
 }
 .quiz{
     background-color:white;
     border-radius:10px;
-    box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow:0 2px 5px black;
     width:500px;
     max-width:100%;
 }
