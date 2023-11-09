@@ -91,15 +91,14 @@ section form .resposta{
 
 /** Button **/
 button{
-    outline:0;
     border: 5px solid var(--black);
     background-color:  var(--green-ligth);
-    width:  100px;
-    padding: 6px 0;
+    width:100px;
+    padding: 15px 0;
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 20px;
     border-radius: 15px;
     transition: 0.6s;
     font-size:20px;
