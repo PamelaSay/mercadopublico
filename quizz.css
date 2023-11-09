@@ -7,7 +7,6 @@
 body{
     margin: 0;
     color: black;
-    display:block;
     align-items: center;
     justify-content: center;
     min-height:100vh;
@@ -32,7 +31,7 @@ a{
 }
 
 .quest{
-   display:flex;
+   
    text-decoration:none;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
