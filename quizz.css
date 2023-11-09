@@ -9,7 +9,8 @@ html {
 body {
     font-family: sans-serif;
     padding: 1rem;
-    background-color: orange;
+    background-color: blue;
+    
 }
 .quiz,
 .choices {
@@ -43,8 +44,6 @@ input[type="radio"] {
     padding: 1rem;
     border: 1px solid goldenrod;
 }
-
-
 
 Resources
 .button:hover {
