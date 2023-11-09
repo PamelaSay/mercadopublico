@@ -13,7 +13,7 @@ html {
 *:after {
     box-sizing: inherit;
 }
-h1{
+.quiz h1{
     text-align:center;
 }
 body {
