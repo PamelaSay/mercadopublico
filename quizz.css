@@ -31,6 +31,7 @@ body {
 }
 .quiz h1{
     text-align:center;
+    display:inline;
 }
 .choices {
     list-style-type: none;
@@ -38,7 +39,7 @@ body {
 }
 .choices li {
     margin-bottom: 5px;
-    padding:5px;
+    padding:2px;
     
 }
 .choices label {
