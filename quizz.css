@@ -36,10 +36,12 @@ body {
 .choices li {
     margin-bottom: 5px;
     padding:20px;
+    
 }
 .choices label {
     display: flex;
     align-items: center;
+    text-align:center;
 }
 .choices label,
 input[type="radio"] {
