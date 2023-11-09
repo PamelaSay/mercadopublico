@@ -22,7 +22,7 @@ body {
     padding: 10px 0px 10px 0px; 
     }
 .quiz{
-    background-color:white;
+    background: white;
     border-radius:10px;
     box-shadow:0 2px 4px black;
     width:500px;
