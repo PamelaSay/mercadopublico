@@ -1,22 +1,86 @@
 *{
-}
-*{
-   
+   box-sizing: border-box;
 }
 
 body{
-    background-image:;
-    background-color: green;
-    background-size: 1380px 610px; /*Para ajustar a imagem ao tamanho da tela*/
-    background-repeat: no-repeat;/* Para evitar que a imagem seja repetida */
-    background-position: cover;
-    float: center; 
+    margin: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-image: url(fundoredu.png);
+    background-size: cover;
+}
+label{
+    text-decoration:none;
 }
 
-h1{
-    color: white;
-
+.menssagem{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 45px;
+    width: 500px;
+    text-decoration: none;
 }
+h2{
+    display:block;
+    font:white;
+    text-align:center;
+    margin:0;
+    text-decoration: none;
+}
+a{
+   text-decoration: none;
+    align-items:center;
+}
+.section{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 10% 0;  
+    text-decoration:none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 10% 0;
+    align-items: center;
+   
+    
+}
+
+.form label{
+    color:white;
+    font-size: 17px;
+    margin-bottom: 4px;
+    flex-direction: column;
+}
+
+ 
+.button {
+   border-radius: 100rem;
+    padding:16px;
+    font-family:"open_sanslight";
+    font-size:1.2em;
+    padding:.5rem 3rem;
+    color:black;
+    text-decoration:none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px white inset;
+ 
+}
+.button:hover {
+    box-shadow: none;
+    color: (darkgoldenrod, khaki, peru, sandybrown);
+    border-radius: 5px;
+  }
 .return-button{
     display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
