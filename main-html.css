@@ -5,8 +5,8 @@ body{
     } 
 
 main .center{
-    padding: 10px;
-    display:flex;
+    padding:5px;
+    display:block;
     flex-direction: column;   
 }
 
@@ -82,7 +82,7 @@ section form .resposta{
 }
 
 .paragrafo{
-   max-width:3000ch;
+   max-width:500px;
   overflow: hidden;
   text-overflow: ellipsis;
   }
