@@ -35,12 +35,6 @@ a{
    text-decoration: none;
     align-items:center;
 }
-.section{
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 10% 0;  
-    text-decoration:none;
-}
-
 .form{
     display: flex;
     flex-direction: column;
@@ -48,11 +42,9 @@ a{
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-radius: 10% 0;
     align-items: center;
-   
-    
 }
 
-.form-label{
+.form label{
     color:white;
     font-size: 17px;
     margin-bottom: 4px;
