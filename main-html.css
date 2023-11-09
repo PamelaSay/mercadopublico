@@ -2,16 +2,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     overflow-y: visible;
-    font-size:28px;
-    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 10% 0;
-}
+    font-size:10px;
+} 
 
 main .center{
     padding: 20px;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
 
 /*** msg de erro ***/
@@ -52,22 +49,22 @@ form input[type = "radio"]:checked + label{
     padding-top:  16px;
     padding-bottom: 16px;
     font-size: 20px;
-    font-weight:200px;
+    font-weight:15px;
     color:  var(--orange);
 }
 
 /** Section wraper **/
 section.wraper{
-    width:  80%;
-    max-width:500px;
+    width: 100%;
+    max-width:200px;
     border: 2px solid var(--orange);
     border-radius: 8px;
     padding: 10px 2%;
     margin:5px;
 }
 section.wraper h1{
-    padding-bottom: 10px;
-    font-size:20px;
+    padding-bottom:0px;
+    font-size:20px;    
 }
 
 section.wraper h3{
@@ -81,7 +78,7 @@ section form .resposta{
 }
 
 .paragrafo{
-    width: 80%;
+    width:20px;
 }
 
 .paragrafo p{
@@ -116,13 +113,13 @@ button:hover{
 /***Início***/
 section.bloco, section.res-final{
     width: 100%;
-    max-width: 450px;
+    max-width:200px;
     height: 40%;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
     border: 5px solid black;
-    border-radius:  15px;
+    border-radius: 15px;
     position: relative;
     background-color: rgba(245, 120, 66, 0.6);
 } 
@@ -136,7 +133,7 @@ section.bloco > button{
     position: absolute;
     top: 0;
     left:  0;
-    top: 30%;
+    top: 30px;
     left: 50%;
 }
 
@@ -149,7 +146,7 @@ section.bloco.over .text h3{
 /***Contador***/
 #cont{
     color:  red;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 
 /*** Resultado final ***/
@@ -168,7 +165,7 @@ section.res-final .text{
     position: absolute;
     top: 0;
     left: 0;
-    top: 10%;
+    top:5px;
     width: 100%;
    }
 
@@ -182,8 +179,7 @@ section.res-final .text img{
     padding: 10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
     border-radius:5 px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
-    transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/
-    
+    transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/    
   }
 
 .return-button img{
