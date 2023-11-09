@@ -37,7 +37,7 @@ label{
 form input[type = "radio"]:checked + label{
     background-color: var(--orange);
     border: 2px solid var(--green);
-    display: inline-block;
+    display: none;
     background:  url( ) no-repeat center/cover,  var(--orange);
 } 
 
