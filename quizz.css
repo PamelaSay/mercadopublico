@@ -27,9 +27,7 @@ body {
     box-shadow:0 2px 4px black;
     width:500px;
     max-width:100%;
-    align-items:center;
-    text-align:center;
-    
+       
 }
 .quiz,
 .choices {
@@ -41,7 +39,7 @@ body {
 }
 .choices label {
     display: flex;
-    align-items: center;
+    
 }
 .choices label,
 input[type="radio"] {
