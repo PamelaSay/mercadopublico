@@ -35,21 +35,21 @@ a{
    text-decoration: none;
     align-items:center;
 }
-section{
+.section{
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-radius: 10% 0;  
     text-decoration:none;
 }
 
 .form{
-     display: flex;
+    display: flex;
     flex-direction: column;
     padding: 10px;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 10% 0;
-    
+    border-radius: 10% 0;   
     
 }
+
 .form label{
     color:white;
     font-size: 17px;
@@ -58,7 +58,7 @@ section{
 }
 
  
-.button {
+.form button {
    border-radius: 100rem;
     padding:16px;
     font-family:"open_sanslight";
