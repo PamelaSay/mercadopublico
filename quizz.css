@@ -53,8 +53,10 @@ input[type="radio"] {
 }
 input[type="radio"] {
     margin-right: 8px;
+    text-align:left
 }
 .view-results {
+    display:inline;
     padding: 1rem;
     cursor: pointer;
     font-size: inherit;
