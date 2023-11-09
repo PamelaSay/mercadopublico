@@ -35,7 +35,7 @@ body {
 }
 .choices li {
     margin-bottom: 5px;
-    padding:10px 20px 20px 10px;
+    padding:10px 10px 10px 10px;
     
 }
 .choices label {
@@ -50,6 +50,7 @@ input[type="radio"] {
     display:block;
     font-size:14px;
     width:100%;
+    padding:5px;
 }
 input[type="radio"] {
     margin-right: 8px;
