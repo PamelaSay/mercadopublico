@@ -19,10 +19,8 @@ main .center > #err-msg{
 
 /*** inputs ***/
 form input[type=radio]{
-   display: none;
+   display:block;
 }  
-
-
 
 label{
     width: 17px;  
