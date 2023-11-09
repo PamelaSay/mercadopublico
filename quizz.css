@@ -1,7 +1,5 @@
 *{
    box-sizing: border-box;
-   background-image: url(fundoredu.png);
-    background-size: cover;
 }
 
 body{
@@ -10,6 +8,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height:100vh;
+    background-image: url(fundoredu.png);
+    background-size: cover;
    
 }
 
@@ -30,8 +30,7 @@ a{
     align-items:center;
 }
 
-.quest{
-   
+.quest{   
    text-decoration:none;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
@@ -53,8 +52,7 @@ a{
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px white inset;
- 
+    box-shadow: 2px 1000px 1px white inset; 
 }
 .button:hover {
     box-shadow: none;
