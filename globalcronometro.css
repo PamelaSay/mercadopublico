@@ -20,6 +20,8 @@ main .center > #err-msg{
 /*** inputs ***/
 form input[type=radio]{
    display:block;
+    border-block:3px;
+    
 }  
 
 label{
