@@ -32,7 +32,7 @@ label{
     margin-right: 4px;
     background-color:  var(--green);
     border: 1px solid black;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     position: relative;
 } 
@@ -49,8 +49,7 @@ form input[type = "radio"]:checked + label{
     text-align: center;
     padding-top:  16px;
     padding-bottom: 16px;
-    font-size: 20px;
-    font-weight:15px;
+    font-size: 30px;
     color:  var(--orange);
 }
 
@@ -69,7 +68,7 @@ section.wraper h1{
 }
 
 section.wraper h3{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 section form .resposta{
@@ -104,6 +103,7 @@ button{
     border-radius: 15px;
     transition: 0.6s;
     font-size:20px;
+    text-align:center;
 }
 
 button:hover{
