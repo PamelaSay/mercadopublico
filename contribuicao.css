@@ -12,10 +12,6 @@ body{
     background-imagem: url(fundoredu.png);
     background-size: cover;
 }
-label{
-    text-decoration:none;
-}
-
 .menssagem{
     display:flex;
     align-items: center;
@@ -24,7 +20,7 @@ label{
     width: 500px;
     text-decoration: none;
 }
-h2{
+.form h2{
     display:block;
     font:white;
     text-align:center;
@@ -35,7 +31,7 @@ a{
    text-decoration: none;
     align-items:center;
 }
-.form{
+.fundo form{
     display: flex;
     flex-direction: column;
     padding: 10px;
