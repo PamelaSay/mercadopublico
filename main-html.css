@@ -2,7 +2,11 @@
     background-color:white;
     padding:3px;
 }
-*,
+*{
+    background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    background-repeat: no-repeat;
+     padding:5px;  
+},
 *:before,
 *:after {
     box-sizing: inherit;
@@ -13,9 +17,6 @@ body{
     overflow-y: visible;
     widtg:100%;
     min-heigth:100px;
-    background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    background-repeat: no-repeat;
-     padding:5px; 
 }
 
 main .center{
