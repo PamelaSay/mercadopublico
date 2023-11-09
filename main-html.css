@@ -2,12 +2,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     overflow-y: visible;
-    } 
+}
 
 main .center{
-    padding:5px;
-    display:block;
-    flex-direction: column;   
+    padding:  200px 2%;
 }
 
 /*** msg de erro ***/
@@ -15,7 +13,7 @@ main .center > #err-msg{
     font-size: 28px;
     text-align: center;
     color: red;
-    padding-bottom: 10px;
+    padding-bottom:  16px;
     display: none;
 }
 
@@ -24,56 +22,48 @@ form input[type=radio]{
    display: none;
 }  
 
+
+
 label{
-    width:100%;
-    
-    height:20px;
+    width: 17px;  
+    height: 17px;
     margin-right: 4px;
-    background-color:  var(--green);
+    background-color:  var(--white);
     border: 1px solid black;
-    display: inline;
+    display: inline-block;
     cursor: pointer;
     position: relative;
 } 
 
 form input[type = "radio"]:checked + label{
     background-color: var(--orange);
-    border:2px solid var(--green);
-    display:inline;
-    background:  url() no-repeat center/cover,  var(--orange);
-    align-items:center;
+    border:  2px solid var(--green);
+    display: inline-block;
+    background:  url("../img/check.svg") no-repeat center/cover,  var(--orange);
 } 
 
 /*** Text**/
 .text{
     text-align: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-size: 30px;
-    border: 1px solid red;
+    padding-top:  20px;
+    padding-bottom:  20px;
+    font-size:  30px;
+    font-weight:  700;
+    color:  var(--orange);
 }
 
 /** Section wraper **/
 section.wraper{
-    width: 100%;
-    max-width:200px;
+    width:  100%;
+    max-width:  450px;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    padding: 10px 2%;
-    margin:5px;
-}
-section.wraper h1{
-    font-size:20px;  
-    padding-bottom: 20px;
-    padding-top: 20px;
-    border:10 px solid black;
-    border-radius: 15px;
-    position: relative;
-    background-color: rgba(245, 120, 66, 0.6);
+    padding: 22px 2%;
+    margin: 0 auto;
 }
 
 section.wraper h3{
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
 
 section form .resposta{
@@ -83,33 +73,30 @@ section form .resposta{
 }
 
 .paragrafo{
-   max-width:2000px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  }
+    width: 93%;
+}
 
 .paragrafo p{
     color: var(--orange);
 }
 
 .resposta:not(:last-of-type){
-    margin-bottom:5px;
+    margin-bottom:  14px;
 }
 
 /** Button **/
 button{
-    border: 5px solid var(--black);
+    outline:  0;
+    border: 1px solid var(--green);
     background-color:  var(--green-ligth);
-    width:100px;
-    padding: 15px 0;
+    width:  100px;
+    padding: 6px 0;
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    border-radius: 15px;
+    margin-top: 18px;
+    border-radius: 20px;
     transition: 0.6s;
-    font-size:20px;
-    text-align:center;
 }
 
 button:hover{
@@ -119,82 +106,70 @@ button:hover{
 
 /***Início***/
 section.bloco, section.res-final{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    max-width: 450px;
+    height:  80%;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
-    border:10 px solid black;
-    border-radius: 15px;
+    border:  1px solid black;
+    border-radius:  15px;
     position: relative;
     background-color: rgba(245, 120, 66, 0.6);
 } 
 
 section.bloco > img{
     width: 100%;
-    height: 100%;   
+    height: 100%;
+   
 }
 
 section.bloco > button{
     position: absolute;
     top: 0;
     left:  0;
-    top: 30px;
+    top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 /***Over***/
 section.bloco.over .text h3{
     color: red;
-    font-size:30px;
 }
 
 /***Contador***/
 #cont{
     color:  red;
-    padding-top: 20px;
+    padding-top: 12px;
 }
 
 /*** Resultado final ***/
 section.res-final h3{
-    color:  var(--green);
-    font-size:20px;
+    color:  var(--green-ligth);
 }
 
 section.res-final > img{
-    width: 80%;
-    height: 80%;
-    
+    width: 100%;
+    height:  100%;
+    opacity: 0.3;
 }
 
 section.res-final .text{
     position: absolute;
     top: 0;
     left: 0;
-    top:5px;
+    top:  50%;
     width: 100%;
-   }
+    transform: translateY(-50%);
+}
 
 section.res-final .text img{
     width:  80px;
     height: 80px;
 }
-.return-button{
-    display:flex; /* isso faz com que os itens fiquem na mesma linha*/
-    margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
-    padding: 10 px 10 px 10 px 10 px; /* Espaçamento interno do botão*/
-    border-radius:5 px; /*borda arredondada*/
-    text-decoration: none; /* remova o sublinahdo do link*/
-    transition:background-color 0.3 s;/*Efeito transição ao passar o mouse*/    
-  }
 
-.return-button img{
-    vertical-align:middle;/* Centralizar verticalmente a imagem*/
-    margin-right: 20px;/* Margem a direita da imagem para separa-la do texto */
-    max-width: 30px;
-    max-height: 30px;
-    align-items:top;
-  }
 /** Mediaqueries **/
 @media screen and (max-width: 374px){
     .paragrafo{
