@@ -7,7 +7,7 @@
     font-family: "poppins",sans-serif;
 }
 
-body {
+*body {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,10 +16,10 @@ body {
     gap:5px;
     background-color: blue;
 }
-body h2 {
+*body h2 {
     color:white;
 }
-main {
+*main {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
