@@ -16,6 +16,12 @@ html {
 .quiz h1{
     text-align:center;
     display:inline;
+    font-size:15px;
+}
+.quiz h3{
+    text-align:center;
+    display:inline;
+    font-size:15px;
 }
 body {
     widtg:100%;
