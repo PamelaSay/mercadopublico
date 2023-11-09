@@ -15,7 +15,7 @@ html {
 }
 body {
     widtg:100%;
-    min-heigth:50%;
+    min-heigth:100px;
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     justify-content:center;
     font-family: sans-serif;
