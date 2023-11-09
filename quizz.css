@@ -54,7 +54,7 @@ input[type="radio"] {
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
-    padding: 10px 10px 10px 0px; /* Espaçamento interno do botão*/
+    padding: 0px 10px 10px 10px; /* Espaçamento interno do botão*/
     border-radius:5px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
