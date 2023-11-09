@@ -45,7 +45,7 @@ form input[type = "radio"]:checked + label{
 /*** Text**/
 .text{
     text-align: center;
-    padding-top:  20px;
+    padding-top: 10px;
     padding-bottom:  20px;
     font-size:  30px;
     font-weight:  700;
@@ -111,7 +111,7 @@ section.bloco, section.res-final{
     height:  80%;
     margin:0;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     border:  1px solid black;
     border-radius:  15px;
     position: relative;
