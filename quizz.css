@@ -30,7 +30,6 @@ body {
     max-width:100%;
 }
 .quiz h1{
-    text-align:center;
     display:inline;
 }
 .choices {
@@ -42,8 +41,7 @@ body {
 }
 .choices label {
     display:flex;
-    text-align:auto;
-}
+    }
 .choices label,
 input[type="radio"] {
     cursor: pointer;
@@ -52,11 +50,10 @@ input[type="radio"] {
     margin-right:8px;
     border:2px solid f0f0f0;
     display:inline;
-    font-size:10px;
+    font-size:20px;
     width:100%;
 }
 .view-results {
-    display:inline;
     padding: 1rem;
     cursor: pointer;
     font-size: inherit;
