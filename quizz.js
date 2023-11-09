@@ -13,7 +13,7 @@ function getScore() {
 }
 function returnScore() {
     document.getElementById("myresults").innerHTML =
-        "você acertou " + getScore() + "/" + tot;
+        "você acertou" + getScore() + "/" + tot;
     if (getScore() > 2) {
         console.log("Bravo");
     }
