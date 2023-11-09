@@ -118,7 +118,27 @@ footer{
 
 
 
- 
+ @media screen and (max-width: 374px){
+    body{
+        width:  91.7%;
+        display:column;
+    }
+     button{
+          border-radius: 10px;
+     }
+}
+
+@media screen and (max-width: 550px){
+    section.res-final .text h3{
+        font-size:  20px;
+    }
+
+    section.bloco.over .text h3{
+        color: red;
+        font-size:  20px;
+    }
+}
+
 
     
 
