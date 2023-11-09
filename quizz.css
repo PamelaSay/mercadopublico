@@ -8,24 +8,19 @@ html {
 }
 body {
     font-family: sans-serif;
-    padding:10px;
-    display:inline;
-    flex-direction: column;
-    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    text-align:center;
+    padding: 1rem;
+    background-color: orange;
 }
-
 .quiz,
 .choices {
     list-style-type: none;
     padding: 0;
-    
 }
 .choices li {
-    margin-bottom:2px;
+    margin-bottom: 5px;
 }
 .choices label {
-    display:inline;
+    display: flex;
     align-items: center;
 }
 .choices label,
@@ -36,23 +31,31 @@ input[type="radio"] {
     margin-right: 8px;
 }
 .view-results {
-    padding:1rem;
+    padding: 1rem;
     cursor: pointer;
     font-size: inherit;
-    color:black;
-    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    color: white;
+    background: teal;
+    border-radius: 8px;
+    margin-right: 5px;
 }
 .my-results {
     padding: 1rem;
-    border: 1px solid goldenrod;
+    border: 1px solid linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+;
 }
 
-Resources
-.button:hover {
-    box-shadow: none;
-    color: (darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 5px;
-  }
+
+
+
+
+
+
+
+
+
+
+
 .return-button{
     display:middle; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
