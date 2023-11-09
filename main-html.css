@@ -26,7 +26,7 @@ form input[type=radio]{
 
 label{
     width:20px;  
-    height:20px;
+    height:18px;
     margin-right: 4px;
     background-color:  var(--green);
     border: 1px solid black;
@@ -82,7 +82,7 @@ section form .resposta{
 }
 
 .paragrafo{
-    width:200px;
+    width:1000px;
 }
 
 .paragrafo p{
