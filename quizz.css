@@ -15,6 +15,7 @@ html {
 }
 .quiz h1{
     text-align:center;
+    display:inline;
 }
 body {
     widtg:100%;
