@@ -20,12 +20,12 @@ body {
     justify-content:center;
     font-family: sans-serif;
     padding: 5px; 
-    margim:20px;
+    margim:15px;
 }
 .quiz{
     background-color:white;
     border-radius:10px;
-    box-shadow:0 2px 5px black;
+    box-shadow:0 2px 2px black;
     width:500px;
     max-width:100%;
     align-items:center;
@@ -64,13 +64,13 @@ input[type="radio"] {
 }
 Resources
 .return-button{
-    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+    display:middle; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
     font-weight: ;
-    padding: 10px 10px 10px 10px; /* Espaçamento interno do botão*/
-    border-radius:5px; /*borda arredondada*/
+    padding:0px 5px 10px 10px; /* Espaçamento interno do botão*/
+    border-radius:2px; /*borda arredondada*/
     text-decoration: none; /* remova o sublinahdo do link*/
     transition:background-color 0.3s;/*Efeito transição ao passar o mouse*/
   }
