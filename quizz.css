@@ -13,11 +13,13 @@ html {
 *:after {
     box-sizing: inherit;
 }
+h1{
+    text-align:center;
+}
 body {
     widtg:100%;
     min-heigth:100px;
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    justify-content:center;
     font-family: sans-serif;
     padding:5px; 
     }
@@ -28,8 +30,7 @@ body {
     width:500px;
     max-width:100%;
     padding:0px 3px 3px 0px;
-       
-}
+    }
 .quiz,
 .choices {
     list-style-type: none;
