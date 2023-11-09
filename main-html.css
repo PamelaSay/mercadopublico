@@ -61,6 +61,9 @@ section.wraper{
     padding: 22px 2%;
     margin: 0 auto;
 }
+section h1{
+    font-size:20px;
+}
 
 section.wraper h3{
     padding-bottom: 18px;
