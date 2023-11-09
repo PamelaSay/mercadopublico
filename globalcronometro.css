@@ -13,7 +13,7 @@ main .center > #err-msg{
     font-size: 28px;
     text-align: center;
     color: red;
-    padding-bottom:  16px;
+    padding-bottom:20 px;
     display: none;
 }
 
@@ -39,7 +39,7 @@ form input[type = "radio"]:checked + label{
     background-color: var(--orange);
     border:  2px solid var(--green);
     display: inline-block;
-    background:  url("../img/check.svg") no-repeat center/cover,  var(--orange);
+    background:  url( ) no-repeat center/cover,  var(--orange);
 } 
 
 /*** Text**/
@@ -87,8 +87,8 @@ section form .resposta{
 /** Button **/
 button{
     outline:  0;
-    border: 1px solid var(--green);
-    background-color:  var(--green-ligth);
+    border: 1px solid var(green);
+    background-color:  var(green-ligth);
     width:  100px;
     padding: 6px 0;
     cursor: pointer;
@@ -100,7 +100,7 @@ button{
 }
 
 button:hover{
-    background-color: var(--green);
+    background-color: var(green);
     color: red;
 }
 
