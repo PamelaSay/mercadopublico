@@ -48,10 +48,7 @@ function loadQuestion() {
     const div = document.createElement("div");
 
     div.innerHTML = `
-    <button class="answer" data-correct="${answer.correct}">
-      ${answer.option}
-    </button>
-    `;
+    <button class="answer" data-correct='${answer.correct} ${answer.option}' </button>;
 
     answers.appendChild(div);
   });
