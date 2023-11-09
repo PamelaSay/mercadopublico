@@ -2,10 +2,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     overflow-y: visible;
+    font-size:28px;
 }
 
 main .center{
-    padding:  200px 2%;
+    padding:  30px 2%;
 }
 
 /*** msg de erro ***/
@@ -21,8 +22,6 @@ main .center > #err-msg{
 form input[type=radio]{
    display: none;
 }  
-
-
 
 label{
     width: 17px;  
@@ -54,7 +53,7 @@ form input[type = "radio"]:checked + label{
 
 /** Section wraper **/
 section.wraper{
-    width:  100%;
+    width:  80%;
     max-width:  450px;
     border: 2px solid var(--orange);
     border-radius: 8px;
@@ -73,7 +72,7 @@ section form .resposta{
 }
 
 .paragrafo{
-    width: 93%;
+    width: 80%;
 }
 
 .paragrafo p{
@@ -135,6 +134,7 @@ section.bloco > button{
 /***Over***/
 section.bloco.over .text h3{
     color: red;
+    font-size:30px;
 }
 
 /***Contador***/
