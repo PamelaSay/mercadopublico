@@ -24,7 +24,7 @@ body {
 .quiz{
     background-color:white;
     border-radius:10px;
-    box-shadow:0 2px 2px black;
+    box-shadow:0 2px 4px black;
     width:500px;
     max-width:100%;
     align-items:center;
