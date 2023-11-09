@@ -66,7 +66,3 @@ function loadQuestion(){
     
 loadQuestion();
 
-
-
-
-}  
