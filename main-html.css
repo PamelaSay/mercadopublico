@@ -59,7 +59,7 @@ section.wraper{
     max-width:  450px;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    padding: 22px 2%;
+    padding:10px 2%;
     margin: 0 auto;
 }
 section h1{
