@@ -84,6 +84,7 @@ section.wraper{
 }
 section h1{
     font-size:20px;
+    
 }
 
 section.wraper h3{
@@ -108,6 +109,15 @@ section form .resposta{
     margin-bottom:  14px;
 }
 
+button h1{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    border-radius: 5px 3px pink;
+    transition: 0.6s;
+    align-items:center;
+}
 /** Button **/
 button{
     outline:  0;
