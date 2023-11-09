@@ -45,7 +45,7 @@ label{
     height: 17px;
     margin-right: 4px;
     background-color:  var(--white);
-    border: 1px solid black;
+    border: 1px solid pink;
     display: inline-block;
     cursor: pointer;
     position: relative;
@@ -53,7 +53,7 @@ label{
 
 form input[type = "radio"]:checked + label{
     background-color: var(--orange);
-    border:  2px solid var(--green);
+    border:  2px solid var(--blue);
     display: inline-block;
     background:  url() no-repeat center/cover,  var(--orange);
 } 
