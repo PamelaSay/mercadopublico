@@ -1,6 +1,12 @@
 html {
-    box-sizing: 80%;
-    
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:"poppins",sans-serif;   
+}
+.header{
+    background-color:white;
+    padding:20px;
 }
 *,
 *:before,
@@ -8,17 +14,28 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: sans-serif;
-    padding: 1rem;
-    background-color: orange;
+    widtg:100%;
+    min-heigth:100vh;
+    background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
 }
-.quiz,
+.quiz{
+    background-color:white;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);
+    width:400px;
+    max-width:100%;
+}
 .choices {
     list-style-type: none;
     align-items:center;
 }
 .choices li {
     margin-bottom: 5px;
+    padding:20px;
 }
 .choices label {
     display: flex;
@@ -27,6 +44,10 @@ body {
 .choices label,
 input[type="radio"] {
     cursor: pointer;
+    border:2px solid f0f0f0;
+    display:block;
+    font-size:14px;
+    width:100%;
 }
 input[type="radio"] {
     margin-right: 8px;
