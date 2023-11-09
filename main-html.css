@@ -121,6 +121,7 @@ section.bloco, section.res-final{
     border-radius:  15px;
     position: center;
     background-color: rgba(245, 120, 66, 0.6);
+    align-items:center;
 } 
 
 section.bloco > img{
