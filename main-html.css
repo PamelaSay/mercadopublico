@@ -3,6 +3,7 @@ body{
     overflow: hidden;
     overflow-y: visible;
     font-size:10px;
+    text-align:center;
 } 
 
 main .center{
