@@ -9,7 +9,7 @@ html {
 body {
     font-family: sans-serif;
     padding: 1rem;
-    background-color: orange;
+    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-box:20px;
     text-align:center;
 }
