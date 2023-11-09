@@ -45,7 +45,7 @@ input[type="radio"] {
 }
 Resources
 .return-button{
-    display:middle; /* isso faz com que os itens fiquem na mesma linha*/
+    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
