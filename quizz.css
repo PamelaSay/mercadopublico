@@ -23,7 +23,7 @@ body {
     margim:15px;
 }
 .quiz{
-    background-color:white center;
+    background-color:white;
     border-radius:10px;
     box-shadow:0 2px 2px black;
     width:500px;
