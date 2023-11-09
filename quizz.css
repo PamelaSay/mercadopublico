@@ -14,7 +14,7 @@ body {
     padding: 10px;
     background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-radius: 10% 0;
-    align-items: center;;
+    
     
 }
 .quiz,
@@ -57,7 +57,7 @@ Resources
     border-radius: 5px;
   }
 .return-button{
-    display: inline; /* isso faz com que os itens fiquem na mesma linha*/
+    display:middle; /* isso faz com que os itens fiquem na mesma linha*/
     background-color: 0;/* Cor do texto do Menu */
     margin-right: 2 px; /* Adicione o espaçamento desejado entre os itens */
     font-size: ;
