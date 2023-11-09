@@ -1,4 +1,5 @@
 export default [
+ loadQuestion();
  {
   question:"Quanto é 1+2?";
    answers:[
