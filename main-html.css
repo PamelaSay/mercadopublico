@@ -20,6 +20,8 @@ main{
      background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     background-repeat: no-repeat;
      padding:5px; 
+     widtg:100%;
+     min-heigth:100px;
 }
 main .center{
     padding:5px 0,32px;
