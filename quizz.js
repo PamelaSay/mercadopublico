@@ -1,4 +1,4 @@
-var answers = ["A", "D", "B"],
+var answers = ["B", "D", "D"],
     tot = answers.length;
 function getCheckedValue(radioName) {
     var radios = document.getElementsByName(radioName);
