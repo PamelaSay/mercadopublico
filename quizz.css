@@ -9,22 +9,22 @@ html {
 body {
     font-family: sans-serif;
     padding:10px;
-    display:flex;
-    flex-direction: column;    
+    display:block;
+    flex-direction: column;
+    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
 }
 
 .quiz,
 .choices {
     list-style-type: none;
     padding: 0;
-    background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 10% 0;
+    
 }
 .choices li {
-    margin-bottom: 5px;
+    margin-bottom:2px;
 }
 .choices label {
-    display: flex;
+    display:inline;
     align-items: center;
 }
 .choices label,
@@ -36,13 +36,11 @@ input[type="radio"] {
 }
 .view-results {
     display:inline;
-    padding: 1rem;
+    padding:1rem;
     cursor: pointer;
     font-size: inherit;
     color: white;
     background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    border-radius: 8px;
-    margin-right: 5px;
 }
 .my-results {
     display:inline;
