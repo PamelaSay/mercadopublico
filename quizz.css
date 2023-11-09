@@ -17,10 +17,9 @@ body {
     widtg:100%;
     min-heigth:50%;
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
-    display:flex;
     justify-content:center;
-    align-items:center;
-    text-align:center;
+    font-family: sans-serif;
+    padding: 1rem;
     
 }
 .quiz{
@@ -38,24 +37,23 @@ body {
     list-style-type: none;
    }
 .choices li {
-    margin-bottom: 8px;
-    padding:2px;    
+    margin-bottom: 5px;
+    padding:0px;    
 }
 .choices label {
-    display: inline;
+    display:flex;
     text-align:auto;
 }
 .choices label,
 input[type="radio"] {
     cursor: pointer;
+   }
+input[type="radio"] {
+    margin-right:8px;
     border:2px solid f0f0f0;
     display:inline;
     font-size:10px;
     width:100%;
-   }
-input[type="radio"] {
-    margin-right:2px;
-    text-align:left 0px;
 }
 .view-results {
     display:inline;
