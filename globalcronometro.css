@@ -159,7 +159,6 @@ section.res-final .text{
     left: 0;
     top:  50%;
     width: 100%;
-    transform: translateY(-50%);
 }
 
 section.res-final .text img{
