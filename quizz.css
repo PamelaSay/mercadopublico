@@ -50,7 +50,7 @@ body {
 input[type="radio"] {
     cursor: pointer;
     border:2px solid f0f0f0;
-    display:block;
+    display:inline-block;
     font-size:14px;
     width:100%;
     padding:5px;
