@@ -49,7 +49,7 @@ label{
     margin-right: 4px;
     background-color:  var(--white);
     border: 3px solid pink;
-    display: inline-block;
+    display: inline;
     cursor: pointer;
     position: relative;
 } 
