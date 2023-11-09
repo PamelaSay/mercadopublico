@@ -5,14 +5,12 @@ body{
     font-size:28px;
     background-color: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     border-radius: 10% 0;
-    align-items: center;
 }
 
 main .center{
-    padding:  30px 2%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    padding: 10px;
    
 }
 
@@ -34,7 +32,7 @@ label{
     width: 17px;  
     height: 17px;
     margin-right: 4px;
-    background-color:  var(--white);
+    background-color:  var(--green);
     border: 1px solid black;
     display: inline-block;
     cursor: pointer;
@@ -61,11 +59,11 @@ form input[type = "radio"]:checked + label{
 /** Section wraper **/
 section.wraper{
     width:  80%;
-    max-width: 200px;
+    max-width:500px;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    padding: 20px 2%;
-    margin: 0 auto;
+    padding: 10px 2%;
+    margin:5px;
 }
 section.wraper h1{
     padding-bottom: 10px;
@@ -73,7 +71,7 @@ section.wraper h1{
 }
 
 section.wraper h3{
-    padding-bottom: 18px;
+    padding-bottom: 15px;
 }
 
 section form .resposta{
@@ -96,7 +94,7 @@ section form .resposta{
 
 /** Button **/
 button{
-    outline:  0;
+    outline:0;
     border: 5px solid var(--black);
     background-color:  var(--green-ligth);
     width:  100px;
@@ -107,6 +105,7 @@ button{
     margin-top: 15px;
     border-radius: 15px;
     transition: 0.6s;
+    font-size:20px;
 }
 
 button:hover{
@@ -122,7 +121,7 @@ section.bloco, section.res-final{
     margin: auto;
     padding-bottom: 20px;
     padding-top: 20px;
-    border:  1px solid black;
+    border: 5px solid black;
     border-radius:  15px;
     position: relative;
     background-color: rgba(245, 120, 66, 0.6);
@@ -137,7 +136,7 @@ section.bloco > button{
     position: absolute;
     top: 0;
     left:  0;
-    top: 50%;
+    top: 30%;
     left: 50%;
 }
 
@@ -155,7 +154,8 @@ section.bloco.over .text h3{
 
 /*** Resultado final ***/
 section.res-final h3{
-    color:  var(--green-ligth);
+    color:  var(--green);
+    font-size:20px;
 }
 
 section.res-final > img{
@@ -168,7 +168,7 @@ section.res-final .text{
     position: absolute;
     top: 0;
     left: 0;
-    top:  50%;
+    top: 10%;
     width: 100%;
    }
 
