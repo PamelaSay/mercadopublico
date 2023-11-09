@@ -39,7 +39,7 @@ form input[type = "radio"]:checked + label{
     background-color: var(--orange);
     border:  2px solid var(--green);
     display: inline-block;
-    background:  url("../img/check.svg") no-repeat center/cover,  var(--orange);
+    background:  url() no-repeat center/cover,  var(--orange);
 } 
 
 /*** Text**/
@@ -48,7 +48,7 @@ form input[type = "radio"]:checked + label{
     padding-top:  16px;
     padding-bottom: 16px;
     font-size:  30px;
-    font-weight:  700;
+    font-weight:700px;
     color:  var(--orange);
 }
 
@@ -58,7 +58,7 @@ section.wraper{
     max-width:  450px;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    padding: 22px 2%;
+    padding: 20px 2%;
     margin: 0 auto;
 }
 
@@ -94,8 +94,8 @@ button{
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    margin-top: 18px;
-    border-radius: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
     transition: 0.6s;
 }
 
@@ -130,8 +130,6 @@ section.bloco > button{
     left:  0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
 }
 
 /***Over***/
@@ -162,8 +160,7 @@ section.res-final .text{
     left: 0;
     top:  50%;
     width: 100%;
-    transform: translateY(-50%);
-}
+   }
 
 section.res-final .text img{
     width:  80px;
