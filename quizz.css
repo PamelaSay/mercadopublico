@@ -29,29 +29,24 @@ body {
     width:500px;
     max-width:100%;
 }
-.quiz h1{
-    display:inline;
-}
+.quiz,
 .choices {
     list-style-type: none;
-   }
+    padding: 0;
+}
 .choices li {
-    margin-bottom:2px;
-    padding:0px;    
+    margin-bottom: 5px;
 }
 .choices label {
-    display:flex;
-    }
+    display: flex;
+    align-items: center;
+}
 .choices label,
 input[type="radio"] {
     cursor: pointer;
-   }
+}
 input[type="radio"] {
-    margin-right:8px;
-    border:2px solid f0f0f0;
-    display:inline;
-    font-size:20px;
-    width:100%;
+    margin-right: 8px;
 }
 .view-results {
     padding: 1rem;
