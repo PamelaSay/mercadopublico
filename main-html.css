@@ -82,7 +82,10 @@ section form .resposta{
 }
 
 .paragrafo{
-    width:1000px;
+   max-width: 300ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: no wrap;
 }
 
 .paragrafo p{
