@@ -44,9 +44,9 @@ form input[type = "radio"]:checked + label{
 /*** Text**/
 .text{
     text-align: center;
-    padding-top:  10px;
+    padding-top: 5px;
     padding-bottom:  20px;
-    font-size: 20px;
+    font-size:30px;
     font-weight:500px;
     color:  var(--orange);
 }
