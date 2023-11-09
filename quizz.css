@@ -19,8 +19,7 @@ body {
     background: linear-gradient(101deg, darkgoldenrod, khaki, peru, sandybrown);
     justify-content:center;
     font-family: sans-serif;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 .quiz{
     background-color:white;
@@ -28,6 +27,7 @@ body {
     box-shadow:0 2px 5px black;
     width:500px;
     max-width:100%;
+    align-items:center;
 }
 .quiz,
 .choices {
