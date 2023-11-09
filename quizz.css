@@ -53,11 +53,11 @@ input[type="radio"] {
     display:inline-block;
     font-size:14px;
     width:100%;
-    padding:5px;
+    padding:10px;
 }
 input[type="radio"] {
     margin-right:2px;
-    text-align:left 2px;
+    text-align:left 8px;
 }
 .view-results {
     display:inline;
