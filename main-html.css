@@ -48,7 +48,7 @@ label{
     height: 17px;
     margin-right: 4px;
     background-color:  var(--white);
-    border: 1px solid pink;
+    border: 3px solid pink;
     display: inline-block;
     cursor: pointer;
     position: relative;
