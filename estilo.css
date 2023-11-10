@@ -14,6 +14,7 @@ body{
 h1{
     color: black;
 }
+
 .navbar{
     display: flex;
     height: 60px;
@@ -100,6 +101,7 @@ footer{
     padding:1em;
     font-family:'open_sanslight';
     font-size:1.2em;
+    font-color:black;
     padding:.5rem 3rem;
     color:black;
     text-decoration:none;
