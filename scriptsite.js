@@ -5,7 +5,7 @@ function menuShow(){
     menuMobile.classList.remove('open');
     document.querySelector('icon').src = "iconemenu2.png'";
   }else{
-    menuMobile.classList.add("open");
+    menuMobile.classList.add('open');
     document.querySelector('icon').src = "iconemenu2.png'";
 }
 }
