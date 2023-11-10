@@ -43,7 +43,17 @@ h1{
 .menu1 a:hover{
     color: burlywood;
 }
- 
+.mobile_menu_icon {
+    display:none;
+}
+.mobile_menu {
+    display:none;
+}
+
+
+
+
+
 .ps-1 text-muted{
         bottom: 0px;
         position:static;
@@ -120,7 +130,7 @@ footer{
 
  @media screen and (max-width: 480px){
     .navbar{
-        display: column;
+        display: none;
         font-size:14px;
         
     }
@@ -142,8 +152,33 @@ footer{
          border-radius:100rem;
          text-align:center;
          margim-top:100px;
-         margim-button:10px;
-        
+         margim-button:10px;     
+         
+     }
+     .mobile_menu_icon {
+        display:block;
+     }
+     .mobile_menu_icon button{
+         background-color:transparent;
+         border:none;
+         cursor:pointer;
+     }
+     .mobile_menu{
+         display:flex;
+         flex-direction:column;
+         text-align:center;
+         padding-bottom:1rem;
+        }
+     .mobile_menu .nav-item{
+         display:block;
+         padding-top:1.2rem;
+     }
+     .mobile_menu .login-button{
+         display:block;
+         padding:1rem 2rem;
+     }
+     .mobile_menu .login-button button{
+         width:100%;
          
      }
      
