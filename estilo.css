@@ -48,21 +48,6 @@ h1{
     display:none;
 }
 
-
-
-
-
-
-.mobile_menu {
-    display:none;
-}
-.open{
-    display:block;
-}
-
-
-
-
 .ps-1 text-muted{
         bottom: 0px;
         position:static;
@@ -181,7 +166,7 @@ footer{
          
      }
     .btn_mobile {
-    display:none;
+    display:flex;
 }
 
 
