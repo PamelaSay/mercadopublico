@@ -157,7 +157,8 @@ footer{
     display:flex;
     flex-direction:column;
     text-align:center;
-    padding-bottom:1rem;    
+    padding-bottom:1rem; 
+    z-index:2
 }
 .mobile_menu_menu{
     display:block;
