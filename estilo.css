@@ -127,7 +127,7 @@ footer{
          
      body{
         display:column;
-        background-size:middle;
+        background-size:100vh;
         background-repeat: no-repeat;
         font-size:14px;
         
