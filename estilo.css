@@ -168,14 +168,14 @@ footer{
      }
 
      
-     .menu a{
+.menu a{
         text-align: center;
          padding:1rem 0;
          margin: 0 1rem;
          border-bottom:2px solid rgba(0, 0, 0, 0.5);
      }
      
-     .button {
+.button {
          display:block;
          border-radius:100rem;
          text-align:center;
@@ -183,7 +183,7 @@ footer{
          margim-button:10px;     
          
      }
-    .btn_mobile {
+.btn_mobile {
     display:block;
     
 }
