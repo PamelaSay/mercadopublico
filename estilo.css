@@ -134,11 +134,9 @@ footer{
     }
      .menu1 a{
         text-align: center;
-         padding:10px;
-         margin-rigth:20%;
-         margin-left:40%;
-                
+         padding:10px;                      
      }
+     
      .button {
          margim:10px;
          display:block;
