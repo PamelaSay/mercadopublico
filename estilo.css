@@ -15,7 +15,7 @@ h1{
     color: black;
 }
 
-.navbar{
+.nav_bar{
     display: flex;
     height: 60px;
     background: black;
@@ -139,7 +139,7 @@ footer{
 
 
  @media screen and (max-width: 480px){
-    .navbar{
+.nav_bar{
         display: none;
         font-size:14px;
         
