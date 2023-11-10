@@ -127,7 +127,8 @@ footer{
          
      body{
         display:column;
-        background-size:auto;
+        background-size:middle;
+        background-repeat: no-repeat;
         font-size:14px;
         
     }
