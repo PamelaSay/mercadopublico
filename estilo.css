@@ -123,11 +123,11 @@ footer{
         display: column;
         font-size:14px;
     }
-     
-     
+         
      body{
         width:  50%;
         display:column;
+         background-size: absolute;
     }
      .menu1 a{
         padding: 10px 10px;
