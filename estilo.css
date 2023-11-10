@@ -28,7 +28,7 @@ h1{
       
     }
 
-.menu a{
+.menu a ,menu1 a{
     color: white;
     font-size: 30px;
     text-decoration: none;
@@ -37,7 +37,7 @@ h1{
     text-align: center;
     margin-right: 60px;
 }
-.menu a:hover{
+.menu a:hover, .menu1 a{
     color: burlywood;
 }
 
