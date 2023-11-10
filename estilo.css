@@ -138,9 +138,9 @@ footer{
      }
      .button {
          display:block;
-         border-radius: 5px;
+         border-radius: 100rem;
          padding:10px;
-         box-shadow: 2px 800px 1px #fff inset;
+         box-shadow: 2px 10x 1px #fff inset;
          text-align:center;
          
      }
