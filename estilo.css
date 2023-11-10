@@ -141,8 +141,8 @@ footer{
         padding:10px 10px;
         
     }
-    .menu{
-        display:none;
+.menu{
+    display:none;
     }  
 
 .btn_mobile{
@@ -162,10 +162,9 @@ footer{
 }
 .mobile_menu_menu{
     display:block;
-    padding-top:1.2rem;
+    padding-top: 1.2rem;
 }
-
-
+     
 .open{
     display:block;
 }
