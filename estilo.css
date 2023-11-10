@@ -140,6 +140,7 @@ footer{
          display:block;
          border-radius: 100rem;
         padding:10px;
+         box-shadow: 2px 10px 1px #fff inset;
          
      }
      
