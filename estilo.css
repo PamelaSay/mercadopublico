@@ -24,7 +24,7 @@ h1{
 
 
 
-.menu1 li{
+.menu1{
     flex: 80%;
     text-align: center;
     padding: 10px;
@@ -43,9 +43,15 @@ h1{
 .menu1 a:hover{
     color: burlywood;
 }
-.mobile_menu_icon {
-    display:block;
+
+.btn_mobile {
+    display:none;
 }
+
+
+
+
+
 .mobile_menu {
     display:none;
 }
@@ -144,6 +150,9 @@ footer{
         font-size:14px;
         
     }
+     menu{
+         display:none;
+     }
      .menu1 a{
         text-align: center;
          padding:10px;                      
@@ -157,8 +166,16 @@ footer{
          margim-button:10px;     
          
      }
-     .mobile_menu_icon {
-        display:block;
+    .btn_mobile {
+    display:none;
+}
+
+
+
+
+
+
+     
      }
      .mobile_menu_icon button{
          background-color:transparent;
