@@ -30,7 +30,7 @@ h1{
       
     }
 
-.menu a ,menu1 a{
+.menu a , menu1 a{
     color: white;
     font-size: 30px;
     text-decoration: none;
@@ -136,7 +136,11 @@ footer{
         margim-top:15px;
         
     }
-     menu{
+   . menu{
+       display:none;
+        
+    }
+    .menu{
          display:block;
          position:absolute;
          width:100%;
