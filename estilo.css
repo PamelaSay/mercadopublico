@@ -129,6 +129,11 @@ footer{
         width:  91.7%;
         display:column;
     }
+     .menu1 a{
+        padding: 25px 10px;
+        text-align: center;
+                
+     }
      .button {
          display:block;
          border-radius: 10px;
