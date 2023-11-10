@@ -136,18 +136,17 @@ footer{
         margim-top:15px;
         
     }
-   . menu{
-       display:none;
-        
-    }
-    .menu{
+         
+.menu{   
+    /*display:none:*/
          display:block;
          position:absolute;
          width:100%;
          top:70px;
          right:0px;
-         background:e7e7e7;
+         background:cinza;
          height:calc(100vh-70px);
+        transition:.6s;
          z-index:1000;
          height:0px;
          visibility:hidden;
@@ -170,11 +169,12 @@ footer{
          
      }
     .btn_mobile {
-    display:flex;
+    display:block;
     
 }
 .nav.active menu{
-   height:calc(100vh - 70px);
+   display:block;
+    height:calc(100vh - 70px);
     visibility:visible;
     overflow-y:auto;
 }
