@@ -9,5 +9,3 @@ function toggleMenu(event){
 btnMobile.addEventListener("click, togglerMenu");
 btnMobile.addEventListener("touchstart", togglerMenu");
 
-  }
-}
