@@ -184,6 +184,9 @@ footer{
     height:2px;
     background:blue;
 }
+.nav.active .hamburguer{
+    background:red;
+}
    
      
 }
