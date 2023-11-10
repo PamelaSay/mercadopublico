@@ -31,4 +31,7 @@ h1{
     max-width: 30px;
     max-height: 30px;
   }
-    
+ @media screen and (max-width: 480px){
+body{
+        display:column;
+        background-size:100vh;
