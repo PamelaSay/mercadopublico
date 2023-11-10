@@ -135,16 +135,16 @@ footer{
      .menu1 a{
         text-align: center;
          padding:10px;
-         margin:20%;
-         left:20%;
+         margin-rigth:20%;
+         margin-left:40%;
                 
      }
      .button {
+         margim:10px;
          display:block;
          border-radius:100rem;
          text-align:center;
-         width:50%;
-         left:50%;
+        
         
          
      }
