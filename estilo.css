@@ -132,7 +132,7 @@ footer{
         
     }
      .menu1 a{
-        padding: 10px 10px;
+        padding: 5px 5px;
         text-align: center;
                 
      }
@@ -140,7 +140,7 @@ footer{
          display:block;
          border-radius: 100rem;
         padding:10px;
-         box-shadow: 2px 10px 1px #fff inset;
+         box-shadow: 2px 800px 1px #fff inset;
          
      }
      
