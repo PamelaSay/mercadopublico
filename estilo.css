@@ -138,11 +138,11 @@ footer{
      }
      
      .button {
-         margim:10px;
          display:block;
          border-radius:100rem;
          text-align:center;
          margim-top:100px;
+         margim-button:10px;
         
          
      }
