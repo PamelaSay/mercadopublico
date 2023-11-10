@@ -49,7 +49,9 @@ h1{
 .mobile_menu {
     display:none;
 }
-
+.open{
+    display:block;
+}
 
 
 
