@@ -110,7 +110,7 @@ footer{
 }
 .button:hover {
     box-shadow: none;
-    color: (#AE8625,#F7EF8A,#D2AC47,#EDC967);
+    color: ( AE8625, F7EF8A, D2AC47, EDC967);
     border-radius: 5px;
   }
   
