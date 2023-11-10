@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    color: black;
     background-image: url(fundoredu.png);
     background-size:middle;
     background-repeat: no-repeat;
@@ -26,9 +25,7 @@ h1{
     flex: 80%;
     text-align: center;
     padding: 10px;
-    background: black;
-    list-style:nome;
-      
+   
     }
 
 .menu a{
