@@ -162,7 +162,7 @@ footer{
          background:cinza;
          height:calc(100vh-70px);
         transition:.6s;
-         z-index:1000;
+         z-index:1000px;
          height:0px;
          visibility:hidden;
      }
