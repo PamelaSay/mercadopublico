@@ -1,3 +1,15 @@
+
+function menuShow(){
+  let menuMobile= document.querySelector(".mobile_menu");
+  if(menuMobile.classList.contaisn("open")){}
+    menuMobile.classList.remove("open");
+}else{
+  menuMobile.classList.add("open");
+}
+
+
+
+
 const btnMobile = document.getElementById("btn_mobile");
 
 function toggleMenu(event){
