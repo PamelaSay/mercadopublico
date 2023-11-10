@@ -152,7 +152,7 @@ footer{
         
     }
      menu{
-         display:none;
+         display:block;
          position:absolute;
          width:100%;
          top:70px;
@@ -160,8 +160,12 @@ footer{
          background:e7e7e7;
          height:calc(100vh-70px);
          z-index:1000;
+         height:0px;
+         visibility:hidden;
      }
-     .menu1 a{
+
+     
+     .menu a{
         text-align: center;
          padding:1rem 0;
          margin: 0 1rem;
@@ -182,29 +186,17 @@ footer{
 
 
 .nav.active menu{
-    display:flex;
+    
+    height:calc(100vh - 70px);
+    visibility:visible;
+    overflow-y:auto;
 }
 
 
 
      
-     }
-     .mobile_menu_icon button{
-         background-color:transparent;
-         border:none;
-         cursor:pointer;
-     }
-     .mobile_menu{
-         display:flex;
-         flex-direction:column;
-         text-align:center;
-         padding-bottom:1rem;
-        }
-     .mobile_menu .menu1{
-         display:block;
-         padding-top:1.2rem;
-     }
-    
+   
+     
 }
 
    
