@@ -122,11 +122,10 @@ footer{
     .navbar{
         display: column;
         font-size:14px;
-        text-align:center;
+        
     }
          
      body{
-        width: 91,7%;
         display:column;
         background-size:cover;
          font-size:14px;
