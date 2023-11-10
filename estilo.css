@@ -21,9 +21,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
-
-
 .menu{
     flex: 80%;
     text-align: center;
@@ -167,19 +164,25 @@ footer{
      }
     .btn_mobile {
     display:flex;
-}
-
-
-.nav.active menu{
     
-    height:calc(100vh - 70px);
+}
+.nav.active menu{
+   height:calc(100vh - 70px);
     visibility:visible;
     overflow-y:auto;
 }
 
-
-
-     
+.hamburguer{
+    border-top:2px solid;
+    width:20px;
+}     
+.hamburguer::after, .hamburguer::before{
+    content:"";
+    display:block;
+    width:20px;
+    height:2px;
+    background:blue;
+}
    
      
 }
