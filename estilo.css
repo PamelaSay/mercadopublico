@@ -44,7 +44,7 @@ h1{
     color: burlywood;
 }
 .mobile_menu_icon {
-    display:none;
+    display:block;
 }
 .mobile_menu {
     display:none;
