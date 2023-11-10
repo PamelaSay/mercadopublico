@@ -54,6 +54,7 @@ h1{
     margin-left: 70px;
     text-align: center;
     margin-right:60px;
+    
 }
 .menu1 a:hover{
     color: burlywood;
@@ -195,9 +196,9 @@ body{
          background:cinza;
          height:calc(100vh-70px);
         transition:.6s;
-         z-index:1000px;
          height:0px;
          visibility:hidden;
+         
      }
 
      
@@ -212,7 +213,7 @@ body{
          display:block;
          border-radius:100rem;
          text-align:center;
-         margim-top:100px;
+         margim-top:600px;
          margim-button:10px;     
          
      }
