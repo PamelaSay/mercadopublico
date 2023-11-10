@@ -43,8 +43,8 @@ h1{
     color: burlywood;
 }
 
-.btn_mobile {
-    display:none;
+.btn_mobile{
+   display:none; 
 }
 
 .ps-1 text-muted{
