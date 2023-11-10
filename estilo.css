@@ -15,7 +15,7 @@ h1{
     color: black;
 }
 
-.nav_bar{
+.nav_bar  {
     display: flex;
     height: 60px;
     background: black;
@@ -43,9 +43,11 @@ h1{
 .menu a:hover{
     color: burlywood;
 }
-
-.menu1 a{
+.menu h1{
     color:black;
+}
+.menu1 a{
+    color:white;
     font-size: 20px;
     text-decoration: none;
     padding: 25px 25px;
@@ -57,9 +59,6 @@ h1{
     color: burlywood;
 }
 
-.btn_mobile{
-   display:none; 
-}
 
 .ps-1 text-muted{
         bottom: 0px;
@@ -133,17 +132,50 @@ footer{
     max-height: 30px;
   }
     
-
+.btn_mobile{
+   display:none; 
+}
+.mobile_menu{
+    display:none;
+}
 
 
  @media screen and (max-width: 480px){
 .nav_bar{
         display: none;
         font-size:14px;
+        padding:1.5rem 4rem;
         
     }
-         
-     body{
+    .menu{
+        display:none;
+    }  
+
+.btn_mobile{
+    display:block;
+}
+.btn_mobile button{
+    backgroun-color:transparent;
+    border:none;
+    cursor:pointer;
+}
+.mobile_menu{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    padding-bottom:1rem;    
+}
+.mobile_menu_menu{
+    display:block;
+    padding-top:1.2rem;
+}
+
+
+
+
+     
+    
+body{
         display:column;
         background-size:100vh;
         background-repeat: no-repeat;
@@ -183,34 +215,7 @@ footer{
          margim-button:10px;     
          
      }
-.btn_mobile {
-    display:block;
-    
-}
-.nav.active menu{
-   display:block;
-    height:calc(100vh - 70px);
-    visibility:visible;
-    overflow-y:auto;
-}
 
-.hamburguer{
-    border-top:2px solid;
-    width:20px;
-}     
-.hamburguer::after, .hamburguer::before{
-    content:"";
-    display:block;
-    width:20px;
-    height:2px;
-    background:blue;
-}
-.nav.active .hamburguer{
-    background:red;
-}
-   
-     
-}
 
    
 
